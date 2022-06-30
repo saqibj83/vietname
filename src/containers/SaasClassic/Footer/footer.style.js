@@ -6,7 +6,7 @@ const FooterWrapper = styled.footer`
   background: #000;
   overflow: hidden;
   padding: 15px 0 40px 0;
-  margin-top: 100px;
+  margin-top: 0;
 
   .footer_container {
     background-repeat: no-repeat;
