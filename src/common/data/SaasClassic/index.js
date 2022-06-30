@@ -29,7 +29,7 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "Join The Action",
+    label: "Join",
     path: "#join_section",
     offset: "0",
   },
@@ -251,24 +251,24 @@ export const FOOTER_WIDGET = [
     title: "Cyprus Event",
     menuItems: [
       {
-        url: "#",
+        url: "#event_section",
         text: "Event Schedule",
       },
       {
-        url: "#",
+        url: "#channel_section",
         text: "Live Channel",
       },
       {
-        url: "#",
+        url: "#Venue",
         text: "Venue",
       },
       {
-        url: "#",
-        text: "Join The Action",
+        url: "#sponsor_section",
+        text: "Sponsors",
       },
       {
-        url: "#",
-        text: "Contact us",
+        url: "#join_section",
+        text: "Join The Event",
       },
     ],
   },
@@ -276,23 +276,23 @@ export const FOOTER_WIDGET = [
     title: "Tournament",
     menuItems: [
       {
-        url: "#",
+        url: "https://tritonpoker.plus/festival/e5d259c2-2310-44a6-ae67-8885c481833f",
         text: "Live Updates",
       },
       {
-        url: "#",
+        url: "https://triton-series.com/event-results/",
         text: "Event Results",
       },
       {
-        url: "#",
+        url: "https://triton-series.com/player-of-the-year/",
         text: "Player of the year",
       },
       {
-        url: "#",
+        url: "https://triton-series.com/triton-million/",
         text: "Triton Million",
       },
       {
-        url: "#",
+        url: "https://triton-series.com/rankings/",
         text: "All Time Money List",
       },
     ],
@@ -301,23 +301,23 @@ export const FOOTER_WIDGET = [
     title: "Others",
     menuItems: [
       {
-        url: "#",
+        url: "https://triton-series.com/media/",
         text: "Media",
       },
       {
-        url: "#",
+        url: "https://shop.triton-series.com/",
         text: "Shop",
       },
       {
-        url: "#",
+        url: "https://triton-series.com/sponsors/",
         text: "Sponsors",
       },
       {
-        url: "#",
+        url: "https://charity.triton-series.com/",
         text: "Charity",
       },
       {
-        url: "#",
+        url: "https://triton-series.com/about-us/",
         text: "About",
       },
     ],
@@ -326,19 +326,15 @@ export const FOOTER_WIDGET = [
     title: "Policy",
     menuItems: [
       {
-        url: "#",
+        url: "https://triton-series.com/tournament-rules/",
         text: "Trounament Rules",
       },
       {
-        url: "#",
-        text: "Event Rules",
+        url: "https://triton-series.com/accommodation-terms-conditions/",
+        text: "Accommodation Terms & Conditions",
       },
       {
-        url: "#",
-        text: "Privacy and Policy",
-      },
-      {
-        url: "#",
+        url: "https://triton-series.com/terms-and-conditions/",
         text: "Terms and Conditions",
       },
     ],

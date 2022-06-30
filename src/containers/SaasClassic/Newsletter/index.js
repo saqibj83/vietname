@@ -24,7 +24,7 @@ const Newsletter = ({
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
   return (
-    <Box {...sectionWrapper} as="section" id="join_section">
+    <Box {...sectionWrapper} as="section">
       <Container>
         <NewsletterWrapper>
           <Box {...textArea}>

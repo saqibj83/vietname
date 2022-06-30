@@ -22,6 +22,34 @@ const SectionWrapper = styled.section`
     padding: 0 40px;
     line-height: 20px;
   }
+  .primary-cta {
+    text-decoration: none;
+    color: #000;
+    margin: -40px 20px 20px;
+    font-size: 1.3em;
+    font-family: "Trajan Pro", serif;
+    text-transform: uppercase;
+    padding: 15px 40px 15px;
+    background: linear-gradient(
+      90deg,
+      rgba(190, 123, 14, 1) 0%,
+      rgba(213, 149, 42, 1) 17%,
+      rgba(203, 158, 71, 1) 35%,
+      rgba(235, 194, 113, 1) 50%,
+      rgba(199, 133, 28, 1) 90%,
+      rgba(215, 131, 0, 1) 100%
+    );
+    box-shadow: #000 3px 3px 6px 0;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+  }
+  .prime-cta {
+    text-align: center;
+    margin-bottom: 30px;
+  }
   @keyframes ScaleInUp {
     from {
       opacity: 0;

@@ -50,11 +50,13 @@ const TrialSection = ({
               <NextImage src={VendorLogos2} alt="Domain Image" />
               <h3 style={{ color: "#e29821" }}>OFFICIAL TIMEKEEPER</h3>
             </Box>
-            <Heading
-              {...title}
-              content="WANT TO JOIN THE ACTION?
+            <Box id="join_section">
+              <Heading
+                {...title}
+                content="WANT TO JOIN THE ACTION?
 "
-            />
+              />
+            </Box>
           </Box>
         </Box>
       </Container>

@@ -1,4 +1,4 @@
-import styled, { createGlobalStyle, keyframes } from 'styled-components';
+import styled, { createGlobalStyle, keyframes } from "styled-components";
 
 const Fade = keyframes`
   0% {
@@ -218,17 +218,17 @@ export const ContentWrapper = styled.div`
         }
         &.is-current {
           a {
-            color: #edcd37;
+            color: #e29821 !important;
           }
         }
         a {
           padding: 5px;
-          font-size: 16px;
+          font-size: 20px;
           font-weight: 400;
           color: #fff;
           transition: 0.15s ease-in-out;
           &:hover {
-            color: #edcd37;
+            color: #e29821 !important;
           }
         }
       }

@@ -21,13 +21,16 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
         <Box {...secTitleWrapper}>
           <Heading {...secHeading} content="Event Venue and Accommodation" />
         </Box>
-        {/* <Box>
+        <div className="prime-cta">
           <Link href="#">
             <a>
-              <Button {...button} title="Download Tournament Structure" />
+              <Button
+                title="Download Tournament Structure"
+                className="primary-cta"
+              />
             </a>
           </Link>
-        </Box> */}
+        </div>
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
