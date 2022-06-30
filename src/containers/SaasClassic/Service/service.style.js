@@ -1,0 +1,201 @@
+import styled from "styled-components";
+
+const SectionWrapper = styled.section`
+  padding: 75px 0 75px 0;
+  background: #000;
+
+  .service_item {
+    position: relative;
+    text-align: center;
+    .service_icon {
+      width: 110px;
+      height: 110px;
+      border-radius: 35px;
+      background-color: #ffecef;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin: 0 auto 28px auto;
+      color: #ff4361;
+      @media (max-width: 990px) {
+        width: 90px;
+        height: 90px;
+        border-radius: 25px;
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  table {
+    display: flex;
+    flex-wrap: wrap;
+    & > * {
+      flex: 1 0 100%;
+    }
+  }
+  thead {
+    background: linear-gradient(
+      to right,
+      #eda128 0%,
+      #ffe8b9 34%,
+      #f7a500 94%,
+      #d89127 100%
+    );
+  }
+  tbody {
+    overflow: scroll;
+    width: 100vw;
+    height: calc(100vh - 2rem - 50px);
+    border-top: 1px solid grey;
+    height: 550px;
+    border-left: 1px solid #e9bc66;
+    border-right: 1px solid #e9bc66;
+    border-bottom: 1px solid #e9bc66;
+  }
+
+  /* Step 3: apply flex to all rows */
+  thead tr,
+  tbody tr {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 5px;
+  }
+
+  thead tr {
+    height: 40px;
+    align-items: center;
+    margin-right: 15px;
+  }
+
+  th,
+  td {
+    text-align: left;
+    vertical-align: middle;
+    padding: 15px 0 15px 10px;
+    color: #fff;
+  }
+
+  tbody tr:nth-child(even) {
+    background-color: #242323;
+  }
+
+  td:nth-child(1),
+  th:nth-child(1) {
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e29821;
+  }
+  td:nth-child(2),
+  th:nth-child(2) {
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e29821;
+  }
+  td:nth-child(3),
+  th:nth-child(3) {
+    width: 50px;
+  }
+  td:nth-child(4),
+  th:nth-child(4) {
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #e29821;
+  }
+  td:nth-child(5),
+  th:nth-child(5) {
+    width: 100px;
+  }
+  td:nth-child(6),
+  th:nth-child(6) {
+    width: 100px;
+  }
+  td:nth-child(7),
+  th:nth-child(7) {
+    width: 100px;
+  }
+  .service_item_col {
+    &:nth-child(1) {
+      .service_item {
+        .service_icon {
+          font-size: 56px;
+          @media (max-width: 990px) {
+            font-size: 48px;
+          }
+        }
+      }
+    }
+
+    &:nth-child(2) {
+      .service_item {
+        .service_icon {
+          background-color: #eaf9ff;
+          color: #45b1e1;
+          font-size: 46px;
+          @media (max-width: 990px) {
+            font-size: 40px;
+          }
+        }
+        h3 {
+          color: #45b1e1;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      .service_item {
+        .service_icon {
+          background-color: #fff6d3;
+          color: #d6ab00;
+          font-size: 46px;
+          @media (max-width: 990px) {
+            font-size: 40px;
+          }
+        }
+        h3 {
+          color: #d6ab00;
+        }
+      }
+    }
+
+    &:nth-child(4) {
+      .service_item {
+        .service_icon {
+          background-color: #e4ffee;
+          color: #40975f;
+          font-size: 46px;
+          @media (max-width: 990px) {
+            font-size: 40px;
+          }
+          i {
+            height: 36px;
+          }
+        }
+        h3 {
+          color: #40975f;
+        }
+      }
+    }
+
+    &:nth-child(5) {
+      .service_item {
+        .service_icon {
+          background-color: #f4f4ff;
+          color: #5856d6;
+          font-size: 32px;
+          @media (max-width: 990px) {
+            font-size: 28px;
+          }
+        }
+        h3 {
+          color: #5856d6;
+        }
+      }
+    }
+  }
+`;
+
+export default SectionWrapper;
