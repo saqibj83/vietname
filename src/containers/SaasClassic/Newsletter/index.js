@@ -134,7 +134,7 @@ Newsletter.propTypes = {
 Newsletter.defaultProps = {
   sectionWrapper: {
     backgroundColor: "#000",
-    pb: "0px",
+    pb: "50px",
   },
   textArea: {
     mb: ["40px", "40px", "40px", "0", "0"],

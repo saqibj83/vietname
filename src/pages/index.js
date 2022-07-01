@@ -28,10 +28,7 @@ const SaasClassic = () => {
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
-          <link
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900|Open+Sans:400,400i,600,700"
-            rel="stylesheet"
-          />
+          <link href="https://use.typekit.net/wtc2zlg.css" rel="stylesheet" />
         </Head>
 
         <ResetCSS />

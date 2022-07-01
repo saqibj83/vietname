@@ -68,12 +68,13 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           </Box>
           <Box {...imageWrapper}>
             <Fade bottom>
-              <VideoModal>
+              <NextImage src={BannerImage} alt="banner image" />
+              {/* <VideoModal>
                 <NextImage src={BannerImage} alt="banner image" />
                 <PlayButton tabIndex="1000" onClick={handleVideoModal}>
                   <Icon icon={play} size={40} />
                 </PlayButton>
-              </VideoModal>
+              </VideoModal> */}
             </Fade>
           </Box>
           <Box {...contentWrapper}>
@@ -85,6 +86,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 lineHeight: "30px",
               }}
             >
+              At the Marit Royal Diamond Hotel, North Cyprus <br />
               Monday 5th to Saturday 17th September
             </p>
           </Box>

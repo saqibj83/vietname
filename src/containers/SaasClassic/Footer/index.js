@@ -7,8 +7,14 @@ import Heading from "common/components/Heading";
 import Logo from "common/components/UIElements/Logo";
 import Container from "common/components/UI/Container";
 import FooterWrapper, { List, ListItem } from "./footer.style";
+import NextImage from "common/components/NextImage";
+import Button from "common/components/Button";
+import Input from "common/components/Input";
 
-import LogoImage from "common/assets/image/saasClassic/logo.png";
+import facebook from "common/assets/image/saasClassic/facebook.png";
+import twitter from "common/assets/image/saasClassic/twitter.png";
+import instagram from "common/assets/image/saasClassic/instagram.png";
+import youtube from "common/assets/image/saasClassic/youtube.png";
 
 import { FOOTER_WIDGET } from "common/data/SaasClassic";
 
@@ -17,6 +23,7 @@ const Footer = ({
   col,
   colOne,
   colTwo,
+  buttonStyle,
   titleStyle,
   logoStyle,
   textStyle,
@@ -26,67 +33,168 @@ const Footer = ({
       <Container className="footer_container">
         <Box className="row" {...row}>
           <Box {...colOne}>
-            <Logo
+            <h1 style={{ color: "#e9bc66" }}>FOLLOW US ON</h1>
+            <div style={{ marginRight: "20px", float: "left" }}>
+              <Link href="https://facebook.com/tritonpoker">
+                <a target="_blank">
+                  <NextImage src={facebook} alt="facebook" />
+                </a>
+              </Link>
+            </div>
+            <div style={{ marginRight: "20px", float: "left" }}>
+              <Link href="https://twitter.com/tritonpoker">
+                <a target="_blank">
+                  <NextImage src={twitter} alt="twitter" />
+                </a>
+              </Link>
+            </div>
+            <div style={{ marginRight: "20px", float: "left" }}>
+              <Link href="https://instagram.com/tritonpokerseries">
+                <a target="_blank">
+                  <NextImage src={instagram} alt="instagram" />
+                </a>
+              </Link>
+            </div>
+            <div style={{ marginRight: "20px", float: "left" }}>
+              <Link href="https://youtube.com/tritonpoker">
+                <a target="_blank">
+                  <NextImage src={youtube} alt="youtube" />
+                </a>
+              </Link>
+            </div>
+
+            {/* <Logo
               href="#"
               logoSrc={LogoImage}
               title="Hosting"
               logoStyle={logoStyle}
-            />
-
-            <div style={{ textAlgin: "left" }}>
-              <h4
-                style={{
-                  color: "#fff !important",
-                  margin: "0 !important",
-                }}
-              >
-                For More INFO
-              </h4>
-              <p
-                style={{
-                  color: "#fff !important",
-                  margin: "2px 0px 15px !important",
-                }}
-              >
-                info@triton-series.com
-              </p>
-              <h4
-                style={{
-                  color: "#fff !important",
-                  margin: "0 !important",
-                }}
-              >
-                JOIN OUR NEXT EVENT
-              </h4>
-              <p
-                style={{
-                  color: "#fff !important",
-                  margin: "2px 0px 15px !important",
-                }}
-              >
-                register@triton-series.com
-              </p>
-              <h4
-                style={{
-                  color: "#fff !important",
-                  margin: "0 !important",
-                }}
-              >
-                WANT TO BE A SPONSOR?
-              </h4>
-              <p
-                style={{
-                  color: "#fff !important",
-                  margin: "0 !important",
-                }}
-              >
-                partnerships@triton-series.com
-              </p>
-            </div>
+            /> */}
+            <iframe
+              src="https://player.twitch.tv?channel=tritonpoker&amp;height=300&amp;parent=embed.example.com&amp;parent=othersite.example.com&amp;parent=triton-series.com&amp;referrer=https%3A%2F%2Ftriton-series.com%2Ftriton-super-high-roller-series-madrid-2022%2F&amp;width=450"
+              allowfullscreen=""
+              scrolling="no"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              title="Twitch"
+              sandbox="allow-modals allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
+              width="100%"
+              height="300"
+            ></iframe>
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>
-            {FOOTER_WIDGET.map((widget, index) => (
+            <Container>
+              <h2 style={{ color: "#e9bc66", marginTop: "100px" }}>
+                SUBSCRIBE TO OUR NEWSLETTER
+              </h2>
+              <Input
+                inputType="email"
+                iconPosition="right"
+                isMaterial={true}
+                className="email_input"
+              />
+              <Button
+                {...buttonStyle}
+                title="Submite Now "
+                className="btn-footer"
+              />
+              <h2 style={{ color: "#e9bc66", marginTop: "10px" }}>
+                GOT A QUESTION?
+              </h2>
+              <div
+                style={{
+                  color: "#fff !important",
+                  margin: "2px 20px 0 0 !important",
+                  float: "left",
+                }}
+              >
+                <h4
+                  style={{
+                    color: "#e9bc66 !important",
+                    margin: "0 !important",
+                  }}
+                >
+                  For More INFO
+                </h4>
+                <p>
+                  <Link href="mailto:info@triton-series.com">
+                    <a>info@triton-series.com</a>
+                  </Link>
+                </p>
+              </div>
+              <div
+                style={{
+                  color: "#fff !important",
+                  margin: "2px 20px 0 0 !important",
+                  float: "left",
+                }}
+              >
+                <h4
+                  style={{
+                    color: "#e9bc66 !important",
+                    margin: "0 !important",
+                  }}
+                >
+                  JOIN OUR NEXT EVENT
+                </h4>
+                <p>
+                  <Link href="mailto:info@register@triton-series.com">
+                    <a>register@triton-series.com</a>
+                  </Link>
+                </p>
+              </div>
+              <div
+                style={{
+                  color: "#fff !important",
+                  margin: "0 !important",
+                  float: "left",
+                }}
+              >
+                <h4
+                  style={{
+                    color: "#e9bc66 !important",
+                    margin: "0 !important",
+                  }}
+                >
+                  WANT TO BE A SPONSOR?
+                </h4>
+                <p>
+                  <Link href="mailto:partnerships@triton-series.com">
+                    <a>partnerships@triton-series.com</a>
+                  </Link>
+                </p>
+              </div>
+              <div style={{ float: "left" }}>
+                {" "}
+                <h3
+                  style={{
+                    color: "#e9bc66 !important",
+                    margin: "20px 0 !important",
+                  }}
+                >
+                  85, Fenlex House, St. John Street, Valleta, VLT1165, Malta
+                </h3>
+              </div>
+              <Box style={{ float: "left", width: "100%" }}>
+                <div style={{ float: "left", marginRight: "10px" }}>
+                  <Link href="https://triton-series.com/privacy-policy/">
+                    <a>Privacy Policy</a>
+                  </Link>
+                </div>
+                <div style={{ float: "left", marginRight: "10px" }}>
+                  <Link href="https://triton-series.com/privacy-policy/">
+                    <a>Privacy Policy</a>
+                  </Link>
+                </div>
+                <div style={{ float: "left", marginRight: "10px" }}>
+                  <Link href="https://triton-series.com/privacy-policy/">
+                    <a>Privacy Policy</a>
+                  </Link>
+                </div>
+              </Box>
+            </Container>
+
+            {/* {FOOTER_WIDGET.map((widget, index) => (
               <Box className="col" {...col} key={`footer-widget-${index}`}>
                 <Heading content={widget.title} {...titleStyle} />
                 <List>
@@ -99,7 +207,7 @@ const Footer = ({
                   ))}
                 </List>
               </Box>
-            ))}
+            ))} */}
           </Box>
           {/* End of footer List column */}
         </Box>
@@ -130,7 +238,7 @@ Footer.defaultProps = {
   },
   // Footer col one style
   colOne: {
-    width: [1, "35%", "35%", "23%"],
+    width: [1, "35%", "35%", "40%"],
     mt: [0, "13px"],
     mb: ["30px", 0],
     pl: ["15px", 0],
@@ -138,7 +246,7 @@ Footer.defaultProps = {
   },
   // Footer col two style
   colTwo: {
-    width: ["100%", "65%", "65%", "77%"],
+    width: ["100%", "65%", "65%", "60%"],
     flexBox: true,
     flexWrap: "wrap",
   },
