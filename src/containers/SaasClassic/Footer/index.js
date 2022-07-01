@@ -15,6 +15,7 @@ import facebook from "common/assets/image/saasClassic/facebook.png";
 import twitter from "common/assets/image/saasClassic/twitter.png";
 import instagram from "common/assets/image/saasClassic/instagram.png";
 import youtube from "common/assets/image/saasClassic/youtube.png";
+import twitch from "common/assets/image/saasClassic/twitch.jpg";
 
 import { FOOTER_WIDGET } from "common/data/SaasClassic";
 
@@ -69,7 +70,7 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             /> */}
-            <iframe
+            {/* <iframe
               src="https://player.twitch.tv?channel=tritonpoker&amp;height=300&amp;parent=embed.example.com&amp;parent=othersite.example.com&amp;parent=triton-series.com&amp;referrer=https%3A%2F%2Ftriton-series.com%2Ftriton-super-high-roller-series-madrid-2022%2F&amp;width=450"
               allowfullscreen=""
               scrolling="no"
@@ -79,7 +80,12 @@ const Footer = ({
               sandbox="allow-modals allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"
               width="100%"
               height="300"
-            ></iframe>
+            ></iframe> */}
+            <Link href="https://www.twitch.tv/tritonpoker">
+              <a target="_blank">
+                <NextImage src={twitch} alt="twitch" />
+              </a>
+            </Link>
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>
