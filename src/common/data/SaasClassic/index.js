@@ -4,32 +4,32 @@ import AuthorThree from "../../assets/image/saasClassic/author-3.jpg";
 
 export const MENU_ITEMS = [
   {
-    label: "Home",
+    label: "HOME",
     path: "#banner_section",
     offset: "0",
   },
   {
-    label: "Event Schedule",
+    label: "EVENT SCHEDULE",
     path: "#event_section",
     offset: "0",
   },
   {
-    label: "Live Channel",
+    label: "LIVE CHANNEL",
     path: "#channel_section",
     offset: "0",
   },
   {
-    label: "Venue",
+    label: "VENUE",
     path: "#venue",
     offset: "0",
   },
   {
-    label: "Sponsors",
+    label: "SPONSORS",
     path: "#sponsor_section",
     offset: "0",
   },
   {
-    label: "Join",
+    label: "JOIN",
     path: "#join_section",
     offset: "0",
   },
@@ -284,16 +284,16 @@ export const FOOTER_WIDGET = [
         text: "Event Results",
       },
       {
-        url: "https://triton-series.com/player-of-the-year/",
+        url: "https://tritonpoker.plus/player-of-the-year/8ad8deb4-cf51-460a-86a8-d21fd2cadc9d",
         text: "Player of the year",
+      },
+      {
+        url: "https://tritonpoker.plus/top-players",
+        text: "All Time Money List",
       },
       {
         url: "https://triton-series.com/triton-million/",
         text: "Triton Million",
-      },
-      {
-        url: "https://triton-series.com/rankings/",
-        text: "All Time Money List",
       },
     ],
   },
@@ -327,11 +327,7 @@ export const FOOTER_WIDGET = [
     menuItems: [
       {
         url: "https://triton-series.com/tournament-rules/",
-        text: "Trounament Rules",
-      },
-      {
-        url: "https://triton-series.com/accommodation-terms-conditions/",
-        text: "Accommodation Terms & Conditions",
+        text: "Tournament Rules",
       },
       {
         url: "https://triton-series.com/terms-and-conditions/",

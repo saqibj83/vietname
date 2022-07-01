@@ -50,11 +50,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               <li>
                 During Triton Series Madrid complimentary accommodation is
                 offered to players who will qualify for the USD 250K combined
-                spent in tournament buy-ins. We are pleased to offer
-                complimentary accommodation at either:
+                <strong>spend</strong> in tournament buy-ins. We are pleased to
+                offer complimentary accommodation at either:
               </li>
-              <li>AC Circulo Gran Via (Adults only)</li>
-              <li>Mandarin Oriental</li>
+              <li>Merit Royal Diamond Hotel</li>
+              <li>Merit Royal Hotel</li>
               <li>
                 Please advise your preference at your earliest convenience.
               </li>

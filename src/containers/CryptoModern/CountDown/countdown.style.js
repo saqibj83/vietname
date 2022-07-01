@@ -158,7 +158,7 @@ export const ContentWrapper = styled.div`
         .digitLabel {
           font-size: 14px;
           letter-spacing: 3px;
-          color: #8ec7ff;
+          color: #fff;
           font-family: "Roboto";
           font-weight: 500;
           text-align: center;

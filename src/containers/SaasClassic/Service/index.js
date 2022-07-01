@@ -20,7 +20,6 @@ const ServiceSection = ({
     <SectionWrapper id="event_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="CYPRUS 2022" />
           <Heading
             {...secHeading}
             content=" EVENT SCHEDULE
