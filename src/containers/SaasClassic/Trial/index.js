@@ -31,35 +31,27 @@ const TrialSection = ({
           <Box {...textArea}>
             <Heading {...title} content="Our Sponsors and Partners" />
 
-            <Box style={{ width: "25%", float: "left", textAlign: "center" }}>
+            <Box className="vender-logos">
               <NextImage src={VendorLogos} alt="GG Poker" />
               <h3 style={{ color: "#e9bc66", fontSize: "18px" }}>
                 TITLE SPONSOR
               </h3>
             </Box>
-            <Box style={{ width: "25%", float: "left", textAlign: "center" }}>
+            <Box className="vender-logos">
               <NextImage src={VendorLogos1} alt="Marit Poker" />
               <h3 style={{ color: "#e9bc66", fontSize: "18px" }}>
                 OFFICIAL Venue
               </h3>
             </Box>
-            <Box
-              style={{
-                width: "25%",
-                float: "left",
-                textAlign: "center",
-              }}
-            >
+            <Box className="vender-logos">
               <NextImage src={VendorLogos2} alt="J&Co." />
               <h3 style={{ color: "#e9bc66", fontSize: "18px" }}>
                 OFFICIAL TIMEKEEPER
               </h3>
             </Box>
             <Box
+              className="vender-logos"
               style={{
-                width: "25%",
-                float: "left",
-                textAlign: "center",
                 marginBottom: "100px",
               }}
             >

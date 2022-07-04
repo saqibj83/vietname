@@ -31,37 +31,65 @@ const ServiceSection = ({
           <table>
             <thead>
               <tr>
-                <th style={{ color: "#000" }}>Time</th>
-                <th style={{ color: "#000" }}>Date</th>
-                <th style={{ color: "#000" }}>Day</th>
-                <th style={{ color: "#000" }}>Event</th>
-                <th style={{ color: "#000" }}>Buy-in USD</th>
-                <th style={{ color: "#000" }}>Stack</th>
-                <th style={{ color: "#000" }}>Level Time</th>
+                <th>
+                  <h5>Time</h5>
+                </th>
+                <th>
+                  <h5>Date</h5>
+                </th>
+                <th>
+                  <h5>Day</h5>
+                </th>
+                <th>
+                  <h5>Event</h5>
+                </th>
+                <th>
+                  <h5>Buy-in</h5>
+                </th>
+                <th>
+                  <h5>Stack</h5>
+                </th>
+                <th>
+                  <h5>
+                    Level <br className="non-mob" /> Time
+                  </h5>
+                </th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>2:00 PM</td>
-                <td>Monday, September 05, 2022</td>
+                <td>
+                  Monday <br /> September <br className="non-mob" /> 05, 2022
+                </td>
                 <td>1</td>
-                <td>NLH - 8 Handed</td>
+                <td>
+                  NLH - 8 <br className="non-mob" /> Handed
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>TBC</td>
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Tuesday, September 06, 2022</td>
+                <td>
+                  Tuesday
+                  <br /> September <br className="non-mob" /> 06, 2022
+                </td>
                 <td>2</td>
-                <td>NLH - 8 Handed</td>
+                <td>
+                  NLH - 8 <br className="non-mob" /> Handed
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>TBC</td>
               </tr>
               <tr>
                 <td>3:00 PM</td>
-                <td>Tuesday, September 06, 2022</td>
+                <td>
+                  Tuesday
+                  <br /> September <br className="non-mob" /> 06, 2022
+                </td>
                 <td>1</td>
                 <td>NLH - 6 Handed</td>
                 <td>$50,000</td>
@@ -70,7 +98,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Wednesday, September 07, 2022</td>
+                <td>
+                  Wednesday
+                  <br /> September <br className="non-mob" /> 07, 2022
+                </td>
                 <td>2</td>
                 <td>NLH - 6 Handed</td>
                 <td>$50,000</td>
@@ -79,7 +110,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>4:00 PM</td>
-                <td>Wednesday, September 07, 2022</td>
+                <td>
+                  Wednesday
+                  <br /> September <br className="non-mob" /> 07, 2022
+                </td>
                 <td>1</td>
                 <td>NLH - 8 Handed</td>
                 <td>$75,000</td>
@@ -88,7 +122,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Thursday, September 08, 2022</td>
+                <td>
+                  Thursday
+                  <br /> September <br className="non-mob" /> 08, 2022
+                </td>
                 <td>2</td>
                 <td>NLH - 8 Handed</td>
                 <td>$75,000</td>
@@ -97,7 +134,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>4:00 PM</td>
-                <td>Thursday, September 08, 2022</td>
+                <td>
+                  Thursday
+                  <br /> September <br className="non-mob" /> 08, 2022
+                </td>
                 <td>1</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30,000</td>
@@ -106,7 +146,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Friday, September 09, 2022</td>
+                <td>
+                  Friday
+                  <br /> September <br className="non-mob" /> 09, 2022
+                </td>
                 <td>2</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30,000</td>
@@ -115,7 +158,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>4:00 PM</td>
-                <td>Friday, September 09, 2022</td>
+                <td>
+                  Friday
+                  <br /> September <br className="non-mob" /> 09, 2022
+                </td>
                 <td>1</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
@@ -124,7 +170,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Saturday, September 10, 2022</td>
+                <td>
+                  Saturday
+                  <br /> September <br className="non-mob" /> 10, 2022
+                </td>
                 <td>2</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
@@ -133,7 +182,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>4:00 PM</td>
-                <td>Saturday, September 10, 2022</td>
+                <td>
+                  Saturday
+                  <br /> September <br className="non-mob" /> 10, 2022
+                </td>
                 <td>1</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25,000</td>
@@ -142,7 +194,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Sunday, September 11, 2022</td>
+                <td>
+                  Sunday
+                  <br /> September <br className="non-mob" /> 11, 2022
+                </td>
                 <td>FT</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
@@ -151,7 +206,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Sunday, September 11, 2022</td>
+                <td>
+                  Sunday
+                  <br /> September <br className="non-mob" /> 11, 2022
+                </td>
                 <td>2</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25,000</td>
@@ -160,7 +218,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>4:00 PM</td>
-                <td>Sunday, September 11, 2022</td>
+                <td>
+                  Sunday
+                  <br /> September <br className="non-mob" /> 11, 2022
+                </td>
                 <td>1</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
@@ -169,7 +230,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Monday, September 12, 2022</td>
+                <td>
+                  Monday
+                  <br /> September <br className="non-mob" /> 12, 2022
+                </td>
                 <td>2</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
@@ -178,7 +242,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>4:00 PM</td>
-                <td>Monday, September 12, 2022</td>
+                <td>
+                  Monday
+                  <br /> September <br className="non-mob" /> 12, 2022
+                </td>
                 <td>SINGLE</td>
                 <td>NLH - TURBO</td>
                 <td>$50,000</td>
@@ -187,7 +254,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Tuesday, September 13, 2022</td>
+                <td>
+                  Tuesday
+                  <br /> September <br className="non-mob" /> 13, 2022
+                </td>
                 <td>FT</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
@@ -196,7 +266,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>3:00 PM</td>
-                <td>Tuesday, September 13, 2022</td>
+                <td>
+                  Tuesday
+                  <br /> September <br className="non-mob" /> 13, 2022
+                </td>
                 <td>1</td>
                 <td>SD Ante-Only - 1 Bullet</td>
                 <td>$50,000</td>
@@ -205,7 +278,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Wednesday, September 14, 2022</td>
+                <td>
+                  Wednesday
+                  <br /> September <br className="non-mob" /> 14, 2022
+                </td>
                 <td>2</td>
                 <td>SD Ante-Only - 1 Bullet</td>
                 <td>$50,000</td>
@@ -214,7 +290,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>3:00 PM</td>
-                <td>Wednesday, September 14, 2022</td>
+                <td>
+                  Wednesday
+                  <br /> September <br className="non-mob" /> 14, 2022
+                </td>
                 <td>1</td>
                 <td>SD Ante-Only - 1 Bullet (PL PF)</td>
                 <td>$40,000</td>
@@ -223,7 +302,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Thursday, September 15, 2022</td>
+                <td>
+                  Thursday
+                  <br /> September <br className="non-mob" /> 15, 2022
+                </td>
                 <td>2</td>
                 <td>SD Ante-Only - 1 Bullet (PL PF)</td>
                 <td>$40,000</td>
@@ -232,7 +314,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>4:00 PM</td>
-                <td>Thursday, September 15, 2022</td>
+                <td>
+                  Thursday
+                  <br /> September <br className="non-mob" /> 15, 2022
+                </td>
                 <td>1</td>
                 <td>SD - Main Event</td>
                 <td>$100,000</td>
@@ -241,7 +326,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Friday, September 16, 2022</td>
+                <td>
+                  Friday
+                  <br /> September <br className="non-mob" /> 16, 2022
+                </td>
                 <td>2</td>
                 <td>SD - Main Event</td>
                 <td>$100,000</td>
@@ -250,7 +338,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>3:00 PM</td>
-                <td>Friday, September 16, 2022</td>
+                <td>
+                  Friday
+                  <br /> September <br className="non-mob" /> 16, 2022
+                </td>
                 <td>1</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30,000</td>
@@ -259,7 +350,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>1:00 PM</td>
-                <td>Saturday, September 17, 2022</td>
+                <td>
+                  Saturday
+                  <br /> September <br className="non-mob" /> 17, 2022
+                </td>
                 <td>2</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30,000</td>
@@ -268,7 +362,10 @@ const ServiceSection = ({
               </tr>
               <tr>
                 <td>3:00 PM</td>
-                <td>Saturday, September 17, 2022</td>
+                <td>
+                  Saturday
+                  <br /> September <br className="non-mob" /> 17, 2022
+                </td>
                 <td>SINGLE</td>
                 <td>Short Deck Ante-Only - TURBO</td>
                 <td>$25,000</td>

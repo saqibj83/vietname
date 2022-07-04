@@ -39,10 +39,24 @@ export const GlobalStyle = createGlobalStyle`
     text-transform: uppercase !important;
   }
 
-  h3, h4 {
+
+  h3, h4, h5 {
     font-size: 18px;
   }
 
+  @media (max-width: 550px) {
+    h3, h4 {
+      font-size: 14px;
+    }
+    p {
+      font-size: 12px !important;
+    }
+  li {
+
+      font-size: 14px !important;
+  }
+
+  }
   .drawer-content-wrapper{
     @media (max-width: 767px) {
       width: 300px!important;
@@ -76,13 +90,13 @@ export const GlobalStyle = createGlobalStyle`
               font-size: 18px;
             }
             &:hover {
-              color: #ff4361;
+              color: #e9bc66;
             }
             &:before{
               content: '';
               width: 7px;
               height: 7px;
-              background: #ff4361;
+              background: #e9bc66;
               border-radius: 50%;
               position: absolute;
               top: 50%;
@@ -93,7 +107,7 @@ export const GlobalStyle = createGlobalStyle`
           }
           &.is-current {
             a {
-              color: #ff4361;
+              color: #e9bc66;
               &:before{
                 opacity: 1;
               }
@@ -124,7 +138,7 @@ export const GlobalStyle = createGlobalStyle`
         content: '\f10b';
         font-family: Flaticon;
         font-size: 26px;
-        color: #ff4361;
+        color: #e9bc66;
         transform: rotate(45deg);
         display: block;
       }
@@ -182,12 +196,12 @@ export const ContentWrapper = styled.div`
           a {
             color: #000;
             &:hover {
-              color: #ff4361;
+              color: #e9bc66;
             }
           }
           &.is-current {
             a {
-              color: #ff4361;
+              color: #e9bc66;
             }
           }
         }
@@ -195,7 +209,7 @@ export const ContentWrapper = styled.div`
     }
     .hamburgMenu__bar {
       > span {
-        background: #ff4361;
+        background: #e9bc66;
       }
     }
   }

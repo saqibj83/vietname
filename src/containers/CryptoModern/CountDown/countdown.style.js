@@ -35,7 +35,7 @@ export const ContentWrapper = styled.div`
       margin-bottom: 20px;
     }
     @media only screen and (max-width: 991px) {
-      font-size: 26px;
+      font-size: 20px;
       line-height: 38px;
     }
     @media only screen and (max-width: 768px) {

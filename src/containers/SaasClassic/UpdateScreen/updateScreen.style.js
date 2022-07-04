@@ -6,9 +6,7 @@ const SectionWrapper = styled.section`
   @media (max-width: 990px) {
     padding: 80px 0 40px 0;
   }
-  @media (max-width: 575px) {
-    padding: 60px 0 20px 0;
-  }
+
   .rc-tabs-tabpane h2 {
     color: #fff;
     padding: 20px 40px 0;
@@ -220,6 +218,25 @@ const SectionWrapper = styled.section`
     }
   }
 
+  @media (max-width: 575px) {
+    padding: 60px 0 20px 0;
+    .container {
+      padding: 10px;
+    }
+    .primary-cta {
+      margin: 0 20px 20px !important;
+      font-size: 15px !important;
+      padding: 10px 15px !important;
+    }
+    .rc-tabs-tab-btn {
+      font-weight: bold;
+      font-size: 12px;
+    }
+    .update-screen-tab .rc-tabs-nav-wrap .rc-tabs-tab {
+      min-width: auto;
+      padding: 0 10px 0 10px;
+    }
+  }
   .rc-tabs-nav-operations {
     display: none;
   }

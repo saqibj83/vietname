@@ -27,6 +27,68 @@ const SectionWrapper = styled.section`
       }
     }
   }
+  .non-mob {
+    display: none;
+  }
+  h5 {
+    color: #000;
+  }
+  @media (max-width: 550px) {
+    .container {
+      padding: 0 !important;
+    }
+    h5 {
+      color: #000;
+      font-size: 12px;
+      text-align: center;
+    }
+    tbody {
+      height: 450px;
+    }
+    .non-mob {
+      display: block;
+    }
+    td:nth-child(1),
+    th:nth-child(1) {
+      width: auto !important;
+      font-size: 11px !important;
+    }
+    td:nth-child(2),
+    th:nth-child(2) {
+      width: 56px !important;
+      font-size: 10px !important;
+      text-align: center;
+      padding-right: 10px;
+    }
+    td:nth-child(3),
+    th:nth-child(3) {
+      width: 20px !important;
+      font-size: 10px !important;
+      text-align: center;
+    }
+    td:nth-child(4),
+    th:nth-child(4) {
+      width: 30px !important;
+      font-size: 10px !important;
+    }
+    td:nth-child(5),
+    th:nth-child(5) {
+      width: 40px !important;
+      font-size: 10px !important;
+    }
+    td:nth-child(6),
+    th:nth-child(6) {
+      width: 40px !important;
+      font-size: 10px !important;
+    }
+    td:nth-child(7),
+    th:nth-child(7) {
+      width: 40px !important;
+      font-size: 10px !important;
+      text-align: center;
+    }
+  }
+
   table {
     display: flex;
     flex-wrap: wrap;

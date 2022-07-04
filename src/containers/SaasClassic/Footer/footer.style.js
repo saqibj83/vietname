@@ -13,6 +13,19 @@ a {
 a:hover {
   color:#e9bc66;
 }
+@media (max-width: 767px) {
+  h2 {
+    margin-top: 30px !important;
+    font-size: 20px;
+  }
+  .btn-footer {
+    top: 10px !important;
+    width:100%
+  }
+  input[type="email"] {
+    width: 100%;
+}
+}
   input {
     font-size: 16px;
     font-weight: 400;
@@ -61,12 +74,16 @@ a:hover {
     position: relative;
     @media (min-width: 576px) {
       background-image: url(${FooterImage?.src});
+
     }
     @media (max-width: 990px) {
       padding-bottom: 40px;
     }
     @media (max-width: 767px) {
       padding-bottom: 0px;
+      h2 {
+        margin-top: 100px !important
+      }
     }
   }
 `;
