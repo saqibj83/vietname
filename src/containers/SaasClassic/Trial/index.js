@@ -40,7 +40,7 @@ const TrialSection = ({
             <Box style={{ width: "25%", float: "left", textAlign: "center" }}>
               <NextImage src={VendorLogos1} alt="Marit Poker" />
               <h3 style={{ color: "#e9bc66", fontSize: "18px" }}>
-                OFFICAL Venue
+                OFFICIAL Venue
               </h3>
             </Box>
             <Box
