@@ -24,8 +24,16 @@ const Newsletter = ({
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
   return (
-    <Box {...sectionWrapper} as="section">
+    <Box {...sectionWrapper} as="section" id="join_section">
       <Container>
+        <Box style={{ paddingTop: "100px" }}>
+          <Heading
+            style={{ marginBottom: "50px" }}
+            {...title}
+            content="WANT TO JOIN THE ACTION? 
+"
+          />
+        </Box>
         <NewsletterWrapper>
           <Box {...textArea}>
             <ContactFormWrapper>
@@ -44,7 +52,10 @@ const Newsletter = ({
                   isMaterial={true}
                   className="email_input"
                 />
-
+                <Box>
+                  {" "}
+                  <label htmlFor="">MESSAGE</label>
+                </Box>
                 <textarea
                   name="textarea-804"
                   cols="40"
@@ -137,7 +148,7 @@ Newsletter.defaultProps = {
     pb: "50px",
   },
   textArea: {
-    mb: ["40px", "40px", "40px", "0", "0"],
+    mb: ["40px", "40px", "40px", "50px", "50px"],
     pr: ["0", "0", "0", "80px", "20px"],
   },
   title: {
@@ -146,7 +157,7 @@ Newsletter.defaultProps = {
     color: "#fff",
     lineHeight: "1.34",
     mb: ["14px", "14px", "14px", "14px", "13px"],
-    textAlign: ["center", "center", "center", "left", "left"],
+    textAlign: ["center", "center", "center", "center", "center"],
     letterSpacing: "-0.025em",
   },
   description: {

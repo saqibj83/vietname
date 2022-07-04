@@ -3,12 +3,11 @@ import styled from "styled-components";
 const NewsletterWrapper = styled.div`
   position: relative;
   background: #e9bc66 !important;
-  padding: 44px 80px;
+  padding: 20px 80px 0;
   border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: -105px;
   @media (max-width: 1220px) {
     padding: 35px 40px;
   }
@@ -20,7 +19,13 @@ const NewsletterWrapper = styled.div`
     width: 40% !important;
   }
   .emil {
-    margin-top: 60px;
+    margin-top: -25px;
+  }
+  .join_section {
+    padding-top: 100px;
+  }
+  .join_section h2 {
+    margin-bottom: 50px;
   }
   @media (max-width: 575px) {
     padding: 35px 20px;
@@ -33,7 +38,7 @@ const NewsletterWrapper = styled.div`
 
 export const ContactFormWrapper = styled.div`
   display: flex;
-  align-items: flex-end;
+  align-items: flex-start !important;
   width: 470px;
   max-width: 100%;
   margin-left: auto;

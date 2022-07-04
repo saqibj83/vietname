@@ -188,13 +188,17 @@ const Footer = ({
                   </Link>
                 </div>
                 <div style={{ float: "left", marginRight: "10px" }}>
-                  <Link href="https://triton-series.com/privacy-policy/">
-                    <a style={{ textTransform: "uppercase" }}>Privacy Policy</a>
+                  <Link href="https://triton-series.com/terms-and-conditions/">
+                    <a style={{ textTransform: "uppercase" }}>
+                      Terms and Conditions
+                    </a>
                   </Link>
                 </div>
                 <div style={{ float: "left", marginRight: "10px" }}>
-                  <Link href="https://triton-series.com/privacy-policy/">
-                    <a style={{ textTransform: "uppercase" }}>Privacy Policy</a>
+                  <Link href="https://triton-series.com/about-paul-phua">
+                    <a style={{ textTransform: "uppercase" }}>
+                      About Paul Phua
+                    </a>
                   </Link>
                 </div>
               </Box>

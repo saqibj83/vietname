@@ -65,13 +65,6 @@ const TrialSection = ({
             >
               <NextImage src={VendorLogos3} alt="secretlab" />
             </Box>
-            <Box id="join_section">
-              <Heading
-                {...title}
-                content="WANT TO JOIN THE ACTION?
-"
-              />
-            </Box>
           </Box>
         </Box>
       </Container>

@@ -170,7 +170,7 @@ export const ContentWrapper = styled.div`
     .saas_navbar {
       background: #fff;
       box-shadow: 0px 3px 8px 0px rgba(43, 83, 135, 0.08);
-      padding: 15px 0;
+      padding: 2px 0;
       .main-logo {
         display: none;
       }
@@ -214,7 +214,7 @@ export const ContentWrapper = styled.div`
       margin-right: 40px;
       li {
         display: inline-block;
-        padding-left: 13px;
+        padding-left: 5px;
         padding-right: 13px;
         &:first-child {
           padding-left: 0;

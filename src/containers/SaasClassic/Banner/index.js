@@ -86,7 +86,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 lineHeight: "30px",
               }}
             >
-              At the Marit Royal Diamond Hotel, North Cyprus <br />
+              At the Merit Royal Diamond Hotel, North Cyprus <br />
               Monday 5th to Saturday 17th September
             </p>
           </Box>
