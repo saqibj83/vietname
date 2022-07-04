@@ -13,6 +13,10 @@ const SectionWrapper = styled.section`
     color: #fff;
     padding: 20px 40px 0;
   }
+  .rc-tabs-tab-btn {
+    font-weight: bold;
+    font-size: 22px;
+  }
   .rc-tabs-tabpane h3 {
     color: #fff;
     padding: 10px 0 0 40px;
