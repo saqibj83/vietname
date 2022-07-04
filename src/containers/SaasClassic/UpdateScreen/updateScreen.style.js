@@ -25,6 +25,7 @@ const SectionWrapper = styled.section`
     color: #fff;
     padding: 0 40px;
     line-height: 20px;
+    font-size: 18px;
   }
   .primary-cta {
     text-decoration: none;
@@ -75,6 +76,7 @@ const SectionWrapper = styled.section`
     position: relative;
     padding: 10px 0 0 20px;
     color: #fff;
+    font-size: 18px;
   }
   li a {
     color: #e9bc66 !important;
