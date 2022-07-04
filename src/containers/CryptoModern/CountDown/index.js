@@ -19,7 +19,7 @@ const CountDownSection = () => {
     <SectionWrapper className="bg-event" id="channel_section">
       <Container>
         <ContentWrapper>
-          <Heading content="Count Down To Event " />
+          <Heading content="COUNTDOWN To Event " />
           <Fade up>
             <div className="timerCount">
               <NormalClock countdown={deadline} divider="true" />

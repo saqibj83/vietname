@@ -101,7 +101,7 @@ const Footer = ({
               />
               <Button
                 {...buttonStyle}
-                title="Submite Now "
+                title="Submit Now "
                 className="btn-footer"
               />
               <h2 style={{ color: "#e9bc66", marginTop: "10px" }}>
