@@ -15,7 +15,7 @@ const SectionWrapper = styled.section`
   }
   .rc-tabs-tab-btn {
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
   }
   .rc-tabs-tabpane h3 {
     color: #fff;
@@ -31,8 +31,7 @@ const SectionWrapper = styled.section`
     text-decoration: none;
     color: #000;
     margin: -40px 20px 20px;
-    font-size: 1.3em;
-    font-family: "Trajan Pro", serif;
+    font-size: 18px;
     text-transform: uppercase;
     padding: 15px 40px 15px;
     background: linear-gradient(

@@ -184,17 +184,17 @@ const Footer = ({
               <Box style={{ float: "left", width: "100%" }}>
                 <div style={{ float: "left", marginRight: "10px" }}>
                   <Link href="https://triton-series.com/privacy-policy/">
-                    <a>Privacy Policy</a>
+                    <a style={{ textTransform: "uppercase" }}>Privacy Policy</a>
                   </Link>
                 </div>
                 <div style={{ float: "left", marginRight: "10px" }}>
                   <Link href="https://triton-series.com/privacy-policy/">
-                    <a>Privacy Policy</a>
+                    <a style={{ textTransform: "uppercase" }}>Privacy Policy</a>
                   </Link>
                 </div>
                 <div style={{ float: "left", marginRight: "10px" }}>
                   <Link href="https://triton-series.com/privacy-policy/">
-                    <a>Privacy Policy</a>
+                    <a style={{ textTransform: "uppercase" }}>Privacy Policy</a>
                   </Link>
                 </div>
               </Box>

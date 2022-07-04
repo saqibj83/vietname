@@ -82,7 +82,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               style={{
                 textAlign: "center",
                 color: "#fff",
-                fontSize: "20px",
+                fontSize: "18px",
                 lineHeight: "30px",
               }}
             >

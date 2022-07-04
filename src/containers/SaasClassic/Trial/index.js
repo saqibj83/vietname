@@ -9,9 +9,9 @@ import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/gg-h.png";
-import VendorLogos1 from "common/assets/image/saasClassic/m88-h.png";
+import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.png";
-import VendorLogos3 from "common/assets/image/saasClassic/luxon-pay-h.png";
+import VendorLogos3 from "common/assets/image/saasClassic/secretlab.png";
 
 const TrialSection = ({
   row,
@@ -31,24 +31,39 @@ const TrialSection = ({
           <Box {...textArea}>
             <Heading {...title} content="Our Sponsors and Partners" />
 
-            <Box style={{ width: "33%", float: "left", textAlign: "center" }}>
-              <NextImage src={VendorLogos} alt="Domain Image" />
-              <h3 style={{ color: "#e29821" }}>TITLE SPONSOR</h3>
+            <Box style={{ width: "25%", float: "left", textAlign: "center" }}>
+              <NextImage src={VendorLogos} alt="GG Poker" />
+              <h3 style={{ color: "#e9bc66", fontSize: "18px" }}>
+                TITLE SPONSOR
+              </h3>
             </Box>
-            <Box style={{ width: "33%", float: "left", textAlign: "center" }}>
-              <NextImage src={VendorLogos1} alt="Domain Image" />
-              <h3 style={{ color: "#e29821" }}>OFFICAL BETTING PARTNER</h3>
+            <Box style={{ width: "25%", float: "left", textAlign: "center" }}>
+              <NextImage src={VendorLogos1} alt="Marit Poker" />
+              <h3 style={{ color: "#e9bc66", fontSize: "18px" }}>
+                OFFICAL Venue
+              </h3>
             </Box>
             <Box
               style={{
-                width: "33%",
+                width: "25%",
+                float: "left",
+                textAlign: "center",
+              }}
+            >
+              <NextImage src={VendorLogos2} alt="J&Co." />
+              <h3 style={{ color: "#e9bc66", fontSize: "18px" }}>
+                OFFICIAL TIMEKEEPER
+              </h3>
+            </Box>
+            <Box
+              style={{
+                width: "25%",
                 float: "left",
                 textAlign: "center",
                 marginBottom: "100px",
               }}
             >
-              <NextImage src={VendorLogos2} alt="Domain Image" />
-              <h3 style={{ color: "#e29821" }}>OFFICIAL TIMEKEEPER</h3>
+              <NextImage src={VendorLogos3} alt="secretlab" />
             </Box>
             <Box id="join_section">
               <Heading
@@ -90,8 +105,8 @@ TrialSection.defaultProps = {
     justifyContent: "center",
   },
   title: {
-    fontSize: ["28px", "32px", "36px", "42px", "48px"],
-    fontWeight: "500",
+    fontSize: ["20px", "24px", "36px", "36px"],
+    fontWeight: "700",
     color: "#fff",
     letterSpacing: "-0.025em",
     mb: "28px",
@@ -99,7 +114,7 @@ TrialSection.defaultProps = {
     lineHeight: "1.25",
   },
   description: {
-    fontSize: ["15px", "15px", "16px", "16px", "16px"],
+    fontSize: ["15px", "15px", "18px", "18px", "18px"],
     color: "#fff",
     lineHeight: "2.1",
     textAlign: "center",

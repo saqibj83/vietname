@@ -71,6 +71,7 @@ export const ContactFormWrapper = styled.div`
     flex-grow: 1;
     margin-right: 20px;
     margin-bottom: 40px;
+    font-size: 18px;
 
     @media (max-width: 575px) {
       width: 100%;

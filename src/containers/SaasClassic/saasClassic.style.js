@@ -31,10 +31,16 @@ export const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     font-family: 'gill-sans-nova', sans-serif !important;
+    text-transform: uppercase;
   }
 
   section {
     position: relative;
+    text-transform: uppercase !important;
+  }
+
+  h3, h4 {
+    font-size: 18px;
   }
 
   .drawer-content-wrapper{

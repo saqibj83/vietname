@@ -147,7 +147,7 @@ export const ContentWrapper = styled.div`
             font-size: 60px;
             letter-spacing: -1px;
             color: #ffffff;
-            font-family: "Roboto";
+            font-family: "gill-sans-nova", sans-serif !important;
             font-weight: 300;
             text-align: center;
             @media (max-width: 480px) {
@@ -156,10 +156,10 @@ export const ContentWrapper = styled.div`
           }
         }
         .digitLabel {
-          font-size: 14px;
+          font-size: 18px;
           letter-spacing: 3px;
           color: #fff;
-          font-family: "Roboto";
+          font-family: "gill-sans-nova", sans-serif !important;
           font-weight: 500;
           text-align: center;
           margin-top: 12px;

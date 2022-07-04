@@ -152,7 +152,7 @@ UpdateScreen.defaultProps = {
     ml: "auto",
     mr: "auto",
     lineHeight: "1.12",
-    width: "540px",
+    width: "100%",
     maxWidth: "100%",
   },
 };
