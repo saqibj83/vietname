@@ -225,7 +225,7 @@ const SectionWrapper = styled.section`
     }
     .primary-cta {
       margin: 0 20px 20px !important;
-      font-size: 15px !important;
+      font-size: 14px !important;
       padding: 10px 15px !important;
     }
     .rc-tabs-tab-btn {
@@ -239,6 +239,9 @@ const SectionWrapper = styled.section`
   }
   .rc-tabs-nav-operations {
     display: none;
+  }
+  .update-screen-tab .rc-tabs-nav-wrap .rc-tabs-tab > div {
+    margin-right: 0;
   }
 `;
 
