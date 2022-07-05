@@ -152,7 +152,6 @@ const SectionWrapper = styled.section`
           content: "";
           position: absolute;
           width: 100%;
-          height: 2px;
           bottom: 0;
           left: 0;
           display: block;
