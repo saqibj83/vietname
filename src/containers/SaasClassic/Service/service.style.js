@@ -27,13 +27,23 @@ const SectionWrapper = styled.section`
       }
     }
   }
-  .non-mob {
+  .non-mobile {
     display: none;
+  }
+  .non-desktop {
+    display: block;
   }
   h5 {
     color: #000;
   }
+
   @media (max-width: 550px) {
+    .non-desktop {
+      display: none;
+    }
+    .non-mobile {
+      display: block;
+    }
     .container {
       padding: 0 !important;
     }

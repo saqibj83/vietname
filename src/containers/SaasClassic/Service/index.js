@@ -26,8 +26,7 @@ const ServiceSection = ({
             "
           />
         </Box>
-
-        <Box>
+        <Box className="non-desktop">
           <table>
             <thead>
               <tr>
@@ -50,9 +49,7 @@ const ServiceSection = ({
                   <h5>Stack</h5>
                 </th>
                 <th>
-                  <h5>
-                    Level <br className="non-mob" /> Time
-                  </h5>
+                  <h5>Level Time</h5>
                 </th>
               </tr>
             </thead>
@@ -370,6 +367,276 @@ const ServiceSection = ({
                 <td>Short Deck Ante-Only - TURBO</td>
                 <td>$25,000</td>
                 <td>100,000 x3</td>
+                <td>20 Min</td>
+              </tr>
+            </tbody>
+          </table>
+        </Box>
+
+        <Box className="non-mobile">
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  <h5>Time</h5>
+                </th>
+                <th>
+                  <h5>Date</h5>
+                </th>
+                <th>
+                  <h5>Day</h5>
+                </th>
+                <th>
+                  <h5>Event</h5>
+                </th>
+                <th>
+                  <h5>Buy-in</h5>
+                </th>
+                <th>
+                  <h5>Stack</h5>
+                </th>
+                <th>
+                  <h5>Level Time</h5>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2PM</td>
+                <td>MON Sep 05</td>
+                <td>1</td>
+                <td>
+                  NLH - 8 <br className="non-mob" /> Handed
+                </td>
+                <td>$25K</td>
+                <td>200K</td>
+                <td>TBC</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>TUE Sep 06</td>
+                <td>2</td>
+                <td>
+                  NLH - 8 <br className="non-mob" /> Handed
+                </td>
+                <td>$25K</td>
+                <td>200K</td>
+                <td>TBC</td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>TUE Sep 06</td>
+                <td>1</td>
+                <td>NLH - 6 Handed</td>
+                <td>$50K</td>
+                <td>200K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>WED Sep 07</td>
+                <td>2</td>
+                <td>NLH - 6 Handed</td>
+                <td>$50K</td>
+                <td>200K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>4PM</td>
+                <td>WED Sep 07</td>
+                <td>1</td>
+                <td>NLH - 8 Handed</td>
+                <td>$75K</td>
+                <td>200K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>THU Sep 08</td>
+                <td>2</td>
+                <td>NLH - 8 Handed</td>
+                <td>$75K</td>
+                <td>200K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>4PM</td>
+                <td>THU Sep 08</td>
+                <td>1</td>
+                <td>NLH - 6 Handed</td>
+                <td>$30K</td>
+                <td>200K</td>
+                <td>30 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>FRI Sep 09</td>
+                <td>2</td>
+                <td>NLH - 6 Handed</td>
+                <td>$30K</td>
+                <td>200K</td>
+                <td>30 Min</td>
+              </tr>
+              <tr>
+                <td>4PM</td>
+                <td>FRI Sep 09</td>
+                <td>1</td>
+                <td>NLH - Coin Rivet Invitational</td>
+                <td>$200K</td>
+                <td>300K</td>
+                <td>50 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>SAT Sep 10</td>
+                <td>2</td>
+                <td>NLH - Coin Rivet Invitational</td>
+                <td>$200K</td>
+                <td>300K</td>
+                <td>50 Min</td>
+              </tr>
+              <tr>
+                <td>4PM</td>
+                <td>SAT Sep 10</td>
+                <td>1</td>
+                <td>Pot Limit Omaha</td>
+                <td>$25K</td>
+                <td>200K</td>
+                <td>30 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>SUN Sep 11</td>
+                <td>FT</td>
+                <td>NLH - Coin Rivet Invitational</td>
+                <td>$200K</td>
+                <td>300K</td>
+                <td>50 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>SUN Sep 11</td>
+                <td>2</td>
+                <td>Pot Limit Omaha</td>
+                <td>$25K</td>
+                <td>200K </td>
+                <td>30 Min</td>
+              </tr>
+              <tr>
+                <td>4PM</td>
+                <td>SUN Sep 11</td>
+                <td>1</td>
+                <td>NLH - Main Event</td>
+                <td>$100K</td>
+                <td>250K</td>
+                <td>50 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>MON Sep 12</td>
+                <td>2</td>
+                <td>NLH - Main Event</td>
+                <td>$100K</td>
+                <td>250K</td>
+                <td>50 Min</td>
+              </tr>
+              <tr>
+                <td>4PM</td>
+                <td>MON Sep 12</td>
+                <td>SINGLE</td>
+                <td>NLH - TURBO</td>
+                <td>$50K</td>
+                <td>200K</td>
+                <td>20 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>TUE Sep 13</td>
+                <td>FT</td>
+                <td>NLH - Main Event</td>
+                <td>$100K</td>
+                <td>250K</td>
+                <td>50 Min</td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>TUE Sep 13</td>
+                <td>1</td>
+                <td>SD Ante-Only - 1 Bullet</td>
+                <td>$50K</td>
+                <td>400K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>WED Sep 14</td>
+                <td>2</td>
+                <td>SD Ante-Only - 1 Bullet</td>
+                <td>$50K</td>
+                <td>400K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>WED Sep 14</td>
+                <td>1</td>
+                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td>$40K</td>
+                <td>400K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>THU Sep 15</td>
+                <td>2</td>
+                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td>$40K</td>
+                <td>400K</td>
+                <td>40 Min</td>
+              </tr>
+              <tr>
+                <td>4PM</td>
+                <td>THU Sep 15</td>
+                <td>1</td>
+                <td>SD - Main Event</td>
+                <td>$100K</td>
+                <td>100K x3</td>
+                <td>45 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>FRI Sep 16</td>
+                <td>2</td>
+                <td>SD - Main Event</td>
+                <td>$100K</td>
+                <td>100K x3</td>
+                <td>45 Min</td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>FRI Sep 16</td>
+                <td>1</td>
+                <td>Short Deck Ante-Only</td>
+                <td>$30K</td>
+                <td>100K x3</td>
+                <td>35 Min</td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>SAT Sep 17</td>
+                <td>2</td>
+                <td>Short Deck Ante-Only</td>
+                <td>$30K</td>
+                <td>100K x3</td>
+                <td>35 Min</td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>SAT Sep 17</td>
+                <td>SINGLE</td>
+                <td>Short Deck Ante-Only - TURBO</td>
+                <td>$25K</td>
+                <td>100K x3</td>
                 <td>20 Min</td>
               </tr>
             </tbody>
