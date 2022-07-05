@@ -177,7 +177,7 @@ const SectionWrapper = styled.section`
   }
   td:nth-child(7),
   th:nth-child(7) {
-    width: 100px;
+    width: 110px;
   }
   .service_item_col {
     &:nth-child(1) {
