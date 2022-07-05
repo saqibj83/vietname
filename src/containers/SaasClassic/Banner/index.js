@@ -87,9 +87,9 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
               }}
             >
               At the Merit Royal Diamond Hotel <br />
-              Monday{" "}
+              Monday
               <span style={{ fontWeight: "700", fontSize: "20px" }}>
-                5th to Saturday 17th September
+                &nbsp; 5th to Saturday 17th September
               </span>
             </p>
           </Box>

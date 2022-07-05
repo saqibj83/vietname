@@ -51,6 +51,9 @@ export const GlobalStyle = createGlobalStyle`
     p {
       font-size: 12px !important;
     }
+    p span {
+      font-size: 14px !important;
+    }
   li {
 
       font-size: 14px !important;
