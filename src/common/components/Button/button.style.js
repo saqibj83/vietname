@@ -10,7 +10,7 @@ const ButtonStyle = styled.button`
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: ${themeGet("colors.white", "#ffffff")};
+  color: ${themeGet("#000", "#000")};
   background: ${themeGet(
     "colors.primary",
     "linear-gradient( 90deg,rgba(190,123,14,1) 0%,rgba(213,149,42,1) 17%,rgba(203,158,71,1) 35%,rgba(235,194,113,1) 50%,rgba(199,133,28,1) 90%,rgba(215,131,0,1) 100% )"

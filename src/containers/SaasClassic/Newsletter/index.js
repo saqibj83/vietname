@@ -121,7 +121,7 @@ const Newsletter = ({
                   <Button
                     {...buttonStyle}
                     title="Send    "
-                    style={{ marginTop: "30px" }}
+                    style={{ marginTop: "30px", background: "#000" }}
                   />
                 </Box>
               </Container>
