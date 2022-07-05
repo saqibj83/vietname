@@ -4,9 +4,12 @@ const SectionWrapper = styled.section`
   background: #000;
   padding: 100px 0 0 0;
   .vender-logos {
-    width: 25%;
+    width: 33%;
     float: left;
     text-align: center;
+    margin-bottom: 30px;
+  }
+  .justify-cen {
   }
   @media (max-width: 550px) {
     .vender-logos {

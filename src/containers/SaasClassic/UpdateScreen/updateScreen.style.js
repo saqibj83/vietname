@@ -3,12 +3,17 @@ import styled from "styled-components";
 const SectionWrapper = styled.section`
   padding: 100px 0 100px 0;
   background: #000;
+  .rc-tabs-content-holder {
+    background: #ffff;
+    border-radius: 10px;
+    border: 3px solid #e9bc66;
+  }
   @media (max-width: 990px) {
     padding: 80px 0 40px 0;
   }
 
   .rc-tabs-tabpane h2 {
-    color: #fff;
+    color: #212121;
     padding: 20px 40px 0;
   }
   .rc-tabs-tab-btn {
@@ -16,11 +21,11 @@ const SectionWrapper = styled.section`
     font-size: 18px;
   }
   .rc-tabs-tabpane h3 {
-    color: #fff;
+    color: #212121;
     padding: 10px 0 0 40px;
   }
   .rc-tabs-tabpane p {
-    color: #fff;
+    color: #212121;
     padding: 0 40px;
     line-height: 20px;
     font-size: 18px;
@@ -72,7 +77,7 @@ const SectionWrapper = styled.section`
     list-style: none;
     position: relative;
     padding: 10px 0 0 20px;
-    color: #fff;
+    color: #212121;
     font-size: 18px;
   }
   li a {

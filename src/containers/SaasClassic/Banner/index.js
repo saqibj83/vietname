@@ -64,7 +64,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
       <Container>
         <Box {...row}>
           <Box {...contentWrapper}>
-            <NextImage src={Cyprus} alt="cyprus image" />
+            <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
           </Box>
           <Box {...imageWrapper}>
             <Fade bottom>
@@ -86,8 +86,11 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 lineHeight: "30px",
               }}
             >
-              At the Merit Royal Diamond Hotel, North Cyprus <br />
-              Monday 5th to Saturday 17th September
+              At the Merit Royal Diamond Hotel <br />
+              Monday{" "}
+              <span style={{ fontWeight: "700", fontSize: "20px" }}>
+                5th to Saturday 17th September
+              </span>
             </p>
           </Box>
         </Box>

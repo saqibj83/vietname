@@ -48,10 +48,10 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               <li>Arrival: 4th of September 2022</li>
               <li>Departure: 18th of September 2022</li>
               <li>
-                During Triton Series Madrid complimentary accommodation is
+                During Triton Series CYPRUS complimentary accommodation is
                 offered to players who will qualify for the USD 250K combined
-                <strong> spend</strong> in tournament buy-ins. We are pleased to
-                offer complimentary accommodation at either:
+                spend in tournament buy-ins. We are pleased to offer
+                complimentary accommodation at either:
               </li>
               <li>Merit Royal Diamond Hotel</li>
               <li>Merit Royal Hotel</li>
