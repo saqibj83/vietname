@@ -25,6 +25,9 @@ a:hover {
   input[type="email"] {
     width: 100%;
 }
+a.link-fon {
+  font-size: 9px;
+}
 }
   input {
     font-size: 16px;
