@@ -71,9 +71,9 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               <Link href="https://triton-series.com/media-application/">
                 <a className="navbar_drawer_button" target="_blank">
                   <Button
-                    className=" btn-bg "
                     {...button}
                     title="MEDIA APPLICATION"
+                    style={{ color: "#000" }}
                   />
                 </a>
               </Link>
@@ -114,7 +114,7 @@ Navbar.defaultProps = {
     borderRadius: "4px",
     pl: "15px",
     pr: "15px",
-    colors: "secondaryWithBg",
+    colors: "#000",
     minHeight: "auto",
     height: "40px",
   },
