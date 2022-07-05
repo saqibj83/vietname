@@ -146,7 +146,7 @@ const SectionWrapper = styled.section`
         border: 1px solid #e9bc66;
         float: none;
         &:hover {
-          color: #e29821;
+          color: #fff;
         }
         &:after {
           content: "";

@@ -70,7 +70,11 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               />
               <Link href="https://triton-series.com/media-application/">
                 <a className="navbar_drawer_button" target="_blank">
-                  <Button {...button} title="MEDIA APPLICATION" />
+                  <Button
+                    className=" btn-bg "
+                    {...button}
+                    title="MEDIA APPLICATION"
+                  />
                 </a>
               </Link>
             </Drawer>
