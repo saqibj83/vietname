@@ -50,7 +50,7 @@ const TrialSection = ({
                 OFFICIAL TIMEKEEPER
               </h3>
             </Box>
-            <Box className="vender-logos">
+            <Box className="vender-logos line-2">
               <NextImage src={VendorLogos3} alt="secretlab" />
             </Box>
             <Box className="vender-logos">

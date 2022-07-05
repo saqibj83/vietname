@@ -9,6 +9,9 @@ const SectionWrapper = styled.section`
     text-align: center;
     margin-bottom: 30px;
   }
+  .line-2 {
+    margin-left: 15%;
+  }
   .justify-cen {
   }
   @media (max-width: 550px) {
@@ -18,6 +21,10 @@ const SectionWrapper = styled.section`
       text-align: center;
       margin-bottom: 10px;
       padding: 10px;
+      height: 200px;
+    }
+    .line-2 {
+      margin-left: 0px;
     }
   }
 `;
