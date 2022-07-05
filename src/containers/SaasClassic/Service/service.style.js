@@ -50,7 +50,7 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(1),
     th:nth-child(1) {
-      width: 10px !important;
+      width: 25px !important;
       font-size: 11px !important;
     }
     td:nth-child(2),
@@ -62,7 +62,7 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(3),
     th:nth-child(3) {
-      width: 10px !important;
+      width: 25px !important;
       font-size: 10px !important;
       text-align: center;
     }
