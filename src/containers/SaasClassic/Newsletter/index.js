@@ -177,7 +177,6 @@ Newsletter.defaultProps = {
     fontWeight: "700",
     pl: "30px",
     pr: "30px",
-    colors: "secondaryWithBg",
     color: "#fff",
     backgroundColor: "#000",
   },
