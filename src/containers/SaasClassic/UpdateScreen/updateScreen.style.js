@@ -5,7 +5,7 @@ const SectionWrapper = styled.section`
   background: #000;
   .rc-tabs-content-holder {
     background: #ffff;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     border: 3px solid #e9bc66;
   }
   @media (max-width: 990px) {
@@ -95,19 +95,19 @@ const SectionWrapper = styled.section`
     }
     .rc-tabs-nav-container,
     .rc-tabs-nav-wrap {
-      margin-bottom: 45px;
+      margin-bottom: 0;
       box-sizing: border-box;
       position: relative;
       overflow: hidden;
       @media (max-width: 767px) {
-        margin-bottom: 30px;
+        margin-bottom: 0;
       }
       &:after {
         content: "";
         position: absolute;
         width: 100%;
-        height: 1px;
-        background: #e7e8eb;
+        // height: 1px;
+        // background: #e7e8eb;
         display: block;
         left: 0;
         bottom: 0;
@@ -208,7 +208,6 @@ const SectionWrapper = styled.section`
     }
     .rc-tabs-content {
       .rc-tabs-tabpane {
-        border-radius: 10px;
         overflow: hidden;
         box-shadow: 0px 5px 60px 0px rgba(27, 67, 111, 0.15);
         &.rc-tabs-tabpane-active {
