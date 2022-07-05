@@ -148,17 +148,20 @@ const SectionWrapper = styled.section`
     font-size: 18px;
     font-weight: bold;
     color: #e29821;
+    text-align: center;
   }
   td:nth-child(2),
   th:nth-child(2) {
-    width: 300px;
+    width: 200px;
     font-size: 18px;
     font-weight: bold;
     color: #e29821;
+    text-align: center;
   }
   td:nth-child(3),
   th:nth-child(3) {
-    width: 50px;
+    width: 100px;
+    text-align: center;
   }
   td:nth-child(4),
   th:nth-child(4) {
@@ -166,18 +169,22 @@ const SectionWrapper = styled.section`
     font-size: 18px;
     font-weight: bold;
     color: #e29821;
+    text-align: center;
   }
   td:nth-child(5),
   th:nth-child(5) {
     width: 100px;
+    text-align: center;
   }
   td:nth-child(6),
   th:nth-child(6) {
     width: 100px;
+    text-align: center;
   }
   td:nth-child(7),
   th:nth-child(7) {
-    width: 110px;
+    width: 120px;
+    text-align: center;
   }
   .service_item_col {
     &:nth-child(1) {
