@@ -50,30 +50,30 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(1),
     th:nth-child(1) {
-      width: auto !important;
+      width: 10px !important;
       font-size: 11px !important;
     }
     td:nth-child(2),
     th:nth-child(2) {
-      width: 56px !important;
+      width: 55px !important;
       font-size: 10px !important;
       text-align: center;
       padding-right: 10px;
     }
     td:nth-child(3),
     th:nth-child(3) {
-      width: 20px !important;
+      width: 10px !important;
       font-size: 10px !important;
       text-align: center;
     }
     td:nth-child(4),
     th:nth-child(4) {
-      width: 30px !important;
+      width: 44px !important;
       font-size: 10px !important;
     }
     td:nth-child(5),
     th:nth-child(5) {
-      width: 40px !important;
+      width: 50px !important;
       font-size: 10px !important;
     }
     td:nth-child(6),

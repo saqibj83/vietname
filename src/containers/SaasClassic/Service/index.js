@@ -58,9 +58,9 @@ const ServiceSection = ({
             </thead>
             <tbody>
               <tr>
-                <td>2:00 PM</td>
+                <td>2PM</td>
                 <td>
-                  Monday <br /> September <br className="non-mob" /> 05, 2022
+                  Monday <br /> Sep 05, 2022
                 </td>
                 <td>1</td>
                 <td>
@@ -71,10 +71,10 @@ const ServiceSection = ({
                 <td>TBC</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Tuesday
-                  <br /> September <br className="non-mob" /> 06, 2022
+                  <br /> Sep 06, 2022
                 </td>
                 <td>2</td>
                 <td>
@@ -85,292 +85,292 @@ const ServiceSection = ({
                 <td>TBC</td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>3PM</td>
                 <td>
                   Tuesday
-                  <br /> September <br className="non-mob" /> 06, 2022
+                  <br /> Sep 06, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - 6 Handed</td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Wednesday
-                  <br /> September <br className="non-mob" /> 07, 2022
+                  <br /> Sep 07, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - 6 Handed</td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>4PM</td>
                 <td>
                   Wednesday
-                  <br /> September <br className="non-mob" /> 07, 2022
+                  <br /> Sep 07, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - 8 Handed</td>
                 <td>$75,000</td>
                 <td>200,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Thursday
-                  <br /> September <br className="non-mob" /> 08, 2022
+                  <br /> Sep 08, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - 8 Handed</td>
                 <td>$75,000</td>
                 <td>200,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>4PM</td>
                 <td>
                   Thursday
-                  <br /> September <br className="non-mob" /> 08, 2022
+                  <br /> Sep 08, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>30 Minutes</td>
+                <td>30 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Friday
-                  <br /> September <br className="non-mob" /> 09, 2022
+                  <br /> Sep 09, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>30 Minutes</td>
+                <td>30 Min</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>4PM</td>
                 <td>
                   Friday
-                  <br /> September <br className="non-mob" /> 09, 2022
+                  <br /> Sep 09, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 Minutes</td>
+                <td>50 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Saturday
-                  <br /> September <br className="non-mob" /> 10, 2022
+                  <br /> Sep 10, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 Minutes</td>
+                <td>50 Min</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>4PM</td>
                 <td>
                   Saturday
-                  <br /> September <br className="non-mob" /> 10, 2022
+                  <br /> Sep 10, 2022
                 </td>
                 <td>1</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25,000</td>
                 <td>200,000</td>
-                <td>30 Minutes</td>
+                <td>30 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Sunday
-                  <br /> September <br className="non-mob" /> 11, 2022
+                  <br /> Sep 11, 2022
                 </td>
                 <td>FT</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 Minutes</td>
+                <td>50 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Sunday
-                  <br /> September <br className="non-mob" /> 11, 2022
+                  <br /> Sep 11, 2022
                 </td>
                 <td>2</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25,000</td>
                 <td>200,000 </td>
-                <td>30 Minutes</td>
+                <td>30 Min</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>4PM</td>
                 <td>
                   Sunday
-                  <br /> September <br className="non-mob" /> 11, 2022
+                  <br /> Sep 11, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>50 Minutes</td>
+                <td>50 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Monday
-                  <br /> September <br className="non-mob" /> 12, 2022
+                  <br /> Sep 12, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>50 Minutes</td>
+                <td>50 Min</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>4PM</td>
                 <td>
                   Monday
-                  <br /> September <br className="non-mob" /> 12, 2022
+                  <br /> Sep 12, 2022
                 </td>
                 <td>SINGLE</td>
                 <td>NLH - TURBO</td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>20 Minutes</td>
+                <td>20 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Tuesday
-                  <br /> September <br className="non-mob" /> 13, 2022
+                  <br /> Sep 13, 2022
                 </td>
                 <td>FT</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>50 Minutes</td>
+                <td>50 Min</td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>3PM</td>
                 <td>
                   Tuesday
-                  <br /> September <br className="non-mob" /> 13, 2022
+                  <br /> Sep 13, 2022
                 </td>
                 <td>1</td>
                 <td>SD Ante-Only - 1 Bullet</td>
                 <td>$50,000</td>
                 <td>400,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Wednesday
-                  <br /> September <br className="non-mob" /> 14, 2022
+                  <br /> Sep 14, 2022
                 </td>
                 <td>2</td>
                 <td>SD Ante-Only - 1 Bullet</td>
                 <td>$50,000</td>
                 <td>400,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>3PM</td>
                 <td>
                   Wednesday
-                  <br /> September <br className="non-mob" /> 14, 2022
+                  <br /> Sep 14, 2022
                 </td>
                 <td>1</td>
                 <td>SD Ante-Only - 1 Bullet (PL PF)</td>
                 <td>$40,000</td>
                 <td>400,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Thursday
-                  <br /> September <br className="non-mob" /> 15, 2022
+                  <br /> Sep 15, 2022
                 </td>
                 <td>2</td>
                 <td>SD Ante-Only - 1 Bullet (PL PF)</td>
                 <td>$40,000</td>
                 <td>400,000</td>
-                <td>40 Minutes</td>
+                <td>40 Min</td>
               </tr>
               <tr>
-                <td>4:00 PM</td>
+                <td>4PM</td>
                 <td>
                   Thursday
-                  <br /> September <br className="non-mob" /> 15, 2022
+                  <br /> Sep 15, 2022
                 </td>
                 <td>1</td>
                 <td>SD - Main Event</td>
                 <td>$100,000</td>
                 <td>100,000 x3</td>
-                <td>45 Minutes</td>
+                <td>45 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Friday
-                  <br /> September <br className="non-mob" /> 16, 2022
+                  <br /> Sep 16, 2022
                 </td>
                 <td>2</td>
                 <td>SD - Main Event</td>
                 <td>$100,000</td>
                 <td>100,000 x3</td>
-                <td>45 Minutes</td>
+                <td>45 Min</td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>3PM</td>
                 <td>
                   Friday
-                  <br /> September <br className="non-mob" /> 16, 2022
+                  <br /> Sep 16, 2022
                 </td>
                 <td>1</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30,000</td>
                 <td>100,000 x3</td>
-                <td>35 Minutes</td>
+                <td>35 Min</td>
               </tr>
               <tr>
-                <td>1:00 PM</td>
+                <td>1PM</td>
                 <td>
                   Saturday
-                  <br /> September <br className="non-mob" /> 17, 2022
+                  <br /> Sep 17, 2022
                 </td>
                 <td>2</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30,000</td>
                 <td>100,000 x3</td>
-                <td>35 Minutes</td>
+                <td>35 Min</td>
               </tr>
               <tr>
-                <td>3:00 PM</td>
+                <td>3PM</td>
                 <td>
                   Saturday
-                  <br /> September <br className="non-mob" /> 17, 2022
+                  <br /> Sep 17, 2022
                 </td>
                 <td>SINGLE</td>
                 <td>Short Deck Ante-Only - TURBO</td>
                 <td>$25,000</td>
                 <td>100,000 x3</td>
-                <td>20 Minutes</td>
+                <td>20 Min</td>
               </tr>
             </tbody>
           </table>
