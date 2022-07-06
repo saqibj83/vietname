@@ -11,7 +11,7 @@ a {
   color:#fff ;
 }
 a:hover {
-  color:#e9bc66;
+  color:#EBA800;
 }
 @media (max-width: 767px) {
   h2 {
@@ -44,7 +44,7 @@ a.link-fon {
 .btn-footer{
   position: relative;
   top: -21px;
-  background: linear-gradient(to right, #eda128 0%, #ffe8b9 34%, #f7a500 94%, #d89127 100%);
+  background: linear-gradient(to right, #EBA8000%, #ffe8b9 34%, #f7a500 94%, #d89127 100%);
   color: #000;
 }
   .email_input {

@@ -34,7 +34,7 @@ const Footer = ({
       <Container className="footer_container">
         <Box className="row" {...row}>
           <Box {...colOne}>
-            <h1 style={{ color: "#e9bc66" }}>FOLLOW US ON</h1>
+            <h1 style={{ color: "#EBA800" }}>FOLLOW US ON</h1>
             <div style={{ marginRight: "20px", float: "left" }}>
               <Link href="https://facebook.com/tritonpoker">
                 <a target="_blank">
@@ -90,7 +90,7 @@ const Footer = ({
           {/* End of footer logo column */}
           <Box {...colTwo}>
             <Container>
-              <h2 style={{ color: "#e9bc66", marginTop: "100px" }}>
+              <h2 style={{ color: "#EBA800", marginTop: "100px" }}>
                 SUBSCRIBE TO OUR NEWSLETTER
               </h2>
               <Input
@@ -104,7 +104,7 @@ const Footer = ({
                 title="Submit Now "
                 className="btn-footer"
               />
-              <h2 style={{ color: "#e9bc66", marginTop: "10px" }}>
+              <h2 style={{ color: "#EBA800", marginTop: "10px" }}>
                 GOT A QUESTION?
               </h2>
               <div
@@ -116,7 +116,7 @@ const Footer = ({
               >
                 <h4
                   style={{
-                    color: "#e9bc66 !important",
+                    color: "#EBA800 !important",
                     margin: "0 !important",
                   }}
                 >
@@ -137,7 +137,7 @@ const Footer = ({
               >
                 <h4
                   style={{
-                    color: "#e9bc66 !important",
+                    color: "#EBA800 !important",
                     margin: "0 !important",
                   }}
                 >
@@ -158,7 +158,7 @@ const Footer = ({
               >
                 <h4
                   style={{
-                    color: "#e9bc66 !important",
+                    color: "#EBA800 !important",
                     margin: "0 !important",
                   }}
                 >
@@ -174,7 +174,7 @@ const Footer = ({
                 {" "}
                 <h3
                   style={{
-                    color: "#e9bc66 !important",
+                    color: "#EBA800 !important",
                     margin: "20px 0 !important",
                   }}
                 >

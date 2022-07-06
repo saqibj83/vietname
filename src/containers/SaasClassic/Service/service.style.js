@@ -109,7 +109,7 @@ const SectionWrapper = styled.section`
   thead {
     background: linear-gradient(
       to right,
-      #eda128 0%,
+      #eba800 0%,
       #ffe8b9 34%,
       #f7a500 94%,
       #d89127 100%
@@ -121,9 +121,9 @@ const SectionWrapper = styled.section`
     height: calc(100vh - 2rem - 50px);
     border-top: 1px solid grey;
     height: 550px;
-    border-left: 1px solid #e9bc66;
-    border-right: 1px solid #e9bc66;
-    border-bottom: 1px solid #e9bc66;
+    border-left: 1px solid #eba800;
+    border-right: 1px solid #eba800;
+    border-bottom: 1px solid #eba800;
   }
 
   /* Step 3: apply flex to all rows */
@@ -157,7 +157,7 @@ const SectionWrapper = styled.section`
     width: 150px;
     font-size: 18px;
     font-weight: bold;
-    color: #e29821;
+    color: #eba800;
     text-align: center;
   }
   td:nth-child(2),
@@ -165,7 +165,7 @@ const SectionWrapper = styled.section`
     width: 200px;
     font-size: 18px;
     font-weight: bold;
-    color: #e29821;
+    color: #eba800;
     text-align: center;
   }
   td:nth-child(3),
@@ -178,7 +178,7 @@ const SectionWrapper = styled.section`
     width: 150px;
     font-size: 18px;
     font-weight: bold;
-    color: #e29821;
+    color: #eba800;
     text-align: center;
   }
   td:nth-child(5),

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const NewsletterWrapper = styled.div`
   position: relative;
-  background: #e9bc66 !important;
+  background: #eba800 !important;
   padding: 20px 80px 0;
   border-radius: 10px;
   display: flex;

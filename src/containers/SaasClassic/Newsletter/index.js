@@ -102,6 +102,7 @@ const Newsletter = ({
                 <DatePicker
                   selected={startDate}
                   className="date_input"
+                  dateFormat="dd/MM/yyyy"
                   onChange={(date) => setStartDate(date)}
                   selectsStart
                   startDate={startDate}
@@ -111,6 +112,7 @@ const Newsletter = ({
                 <DatePicker
                   selected={endDate}
                   className="date_input"
+                  dateFormat="dd/MM/yyyy"
                   onChange={(date) => setEndDate(date)}
                   selectsEnd
                   startDate={startDate}
