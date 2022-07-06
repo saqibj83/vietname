@@ -13,6 +13,7 @@ import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
 import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.png";
 import VendorLogos3 from "common/assets/image/saasClassic/secretlab.png";
 import VendorLogos4 from "common/assets/image/saasClassic/inventional.png";
+import VendorLogos5 from "common/assets/image/saasClassic/luxon.png";
 
 const TrialSection = ({
   row,
@@ -50,11 +51,14 @@ const TrialSection = ({
                 OFFICIAL TIMEKEEPER
               </h3>
             </Box>
-            <Box className="vender-logos line-2">
+            <Box className="vender-logos ">
               <NextImage src={VendorLogos3} alt="secretlab" />
             </Box>
             <Box className="vender-logos">
               <NextImage src={VendorLogos4} alt="inventional" />
+            </Box>
+            <Box className="vender-logos">
+              <NextImage src={VendorLogos5} alt="Luxon" />
             </Box>
           </Box>
         </Box>
