@@ -65,7 +65,7 @@ const ServiceSection = ({
                 </td>
                 <td>$25,000</td>
                 <td>200,000</td>
-                <td>TBC</td>
+                <td>30 Min</td>
               </tr>
               <tr>
                 <td>1PM</td>
@@ -79,7 +79,7 @@ const ServiceSection = ({
                 </td>
                 <td>$25,000</td>
                 <td>200,000</td>
-                <td>TBC</td>
+                <td>30 Min</td>
               </tr>
               <tr>
                 <td>3PM</td>
@@ -410,7 +410,7 @@ const ServiceSection = ({
                 </td>
                 <td>$25K</td>
                 <td>200K</td>
-                <td>TBC</td>
+                <td>30 Min</td>
               </tr>
               <tr>
                 <td>1PM</td>
@@ -421,7 +421,7 @@ const ServiceSection = ({
                 </td>
                 <td>$25K</td>
                 <td>200K</td>
-                <td>TBC</td>
+                <td>30 Min</td>
               </tr>
               <tr>
                 <td>3PM</td>
