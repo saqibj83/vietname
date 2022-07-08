@@ -111,6 +111,7 @@ const Newsletter = ({
                     placeholder="Event To Join"
                     className="domain_search_select"
                     aria-label="select options"
+                    name="event"
                   />
                   <Input
                     inputType="text"
@@ -126,7 +127,7 @@ const Newsletter = ({
                   </Box>
                   <DatePicker
                     selected={startDate}
-                    name={startDate}
+                    name="start_date"
                     className="date_input"
                     dateFormat="dd/MM/yyyy"
                     onChange={(date) => setStartDate(date)}
@@ -137,7 +138,7 @@ const Newsletter = ({
                   To
                   <DatePicker
                     selected={endDate}
-                    name={endDate}
+                    name="end_date"
                     className="date_input"
                     dateFormat="dd/MM/yyyy"
                     onChange={(date) => setEndDate(date)}
