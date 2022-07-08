@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from "@emailjs/browser";
 import DatePicker from "react-datepicker";
 import PropTypes from "prop-types";
 import Box from "common/components/Box";
@@ -23,6 +24,24 @@ const Newsletter = ({
 }) => {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("gmail", "template_snk0woo", e.target, "FgtB5FqTc25g3XcAt")
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    form.current.reset();
+  };
+
   return (
     <Box {...sectionWrapper} as="section" id="join_section">
       <Container>
@@ -35,100 +54,104 @@ const Newsletter = ({
           />
         </Box>
         <NewsletterWrapper>
-          <Box {...textArea}>
-            <ContactFormWrapper>
-              <Container>
-                <Input
-                  inputType="text"
-                  label="NAME"
-                  iconPosition="right"
-                  isMaterial={true}
-                  className="email_input"
-                />
-                <Input
-                  inputType="text"
-                  label="AGE"
-                  iconPosition="right"
-                  isMaterial={true}
-                  className="email_input"
-                />
-                <Box>
-                  {" "}
-                  <label htmlFor="">MESSAGE</label>
-                </Box>
-                <textarea
-                  name="textarea-804"
-                  cols="40"
-                  rows="5"
-                  class="email_input"
-                  style={{
-                    marginTop: "20px",
-                    width: "100%",
-                    background: "transparent",
-                    border: "1px solid #514f50",
-                  }}
-                ></textarea>
-              </Container>
-            </ContactFormWrapper>
-          </Box>
-          <Box {...buttonArea}>
-            <ContactFormWrapper>
-              <Container>
-                <Input
-                  inputType="email"
-                  label="EMAIL"
-                  iconPosition="right"
-                  isMaterial={true}
-                  className="email_input emil"
-                />
-                <Select
-                  options={DOMAIN_NAMES}
-                  placeholder="Event To Join"
-                  className="domain_search_select"
-                  aria-label="select options"
-                />
-                <Input
-                  inputType="text"
-                  label="REFERRAL"
-                  iconPosition="right"
-                  isMaterial={true}
-                  className="email_input"
-                  style={{ marginTop: "40px" }}
-                />
-                <Box>
-                  {" "}
-                  <label htmlFor="">LENGTH OF STAY*</label>
-                </Box>
-                <DatePicker
-                  selected={startDate}
-                  className="date_input"
-                  dateFormat="dd/MM/yyyy"
-                  onChange={(date) => setStartDate(date)}
-                  selectsStart
-                  startDate={startDate}
-                  endDate={endDate}
-                />
-                To
-                <DatePicker
-                  selected={endDate}
-                  className="date_input"
-                  dateFormat="dd/MM/yyyy"
-                  onChange={(date) => setEndDate(date)}
-                  selectsEnd
-                  startDate={startDate}
-                  endDate={endDate}
-                  minDate={startDate}
-                />
-                <Box>
-                  <Button
-                    {...buttonStyle}
-                    title="Send    "
-                    style={{ marginTop: "30px", background: "#000" }}
+          <form ref={form} onSubmit={sendEmail}>
+            <Box {...textArea}>
+              <ContactFormWrapper>
+                <Container>
+                  <Input
+                    inputType="text"
+                    label="NAME"
+                    iconPosition="right"
+                    isMaterial={true}
+                    className="email_input"
                   />
-                </Box>
-              </Container>
-            </ContactFormWrapper>
-          </Box>
+                  <Input
+                    inputType="text"
+                    label="AGE"
+                    iconPosition="right"
+                    isMaterial={true}
+                    className="email_input"
+                  />
+                  <Box>
+                    {" "}
+                    <label htmlFor="">MESSAGE</label>
+                  </Box>
+                  <textarea
+                    name="textarea-804"
+                    cols="40"
+                    rows="5"
+                    class="email_input"
+                    style={{
+                      marginTop: "20px",
+                      width: "100%",
+                      background: "transparent",
+                      border: "1px solid #514f50",
+                    }}
+                  ></textarea>
+                </Container>
+              </ContactFormWrapper>
+            </Box>
+            <Box {...buttonArea}>
+              <ContactFormWrapper>
+                <Container>
+                  <Input
+                    inputType="email"
+                    label="EMAIL"
+                    iconPosition="right"
+                    isMaterial={true}
+                    className="email_input emil"
+                  />
+                  <Select
+                    options={DOMAIN_NAMES}
+                    placeholder="Event To Join"
+                    className="domain_search_select"
+                    aria-label="select options"
+                  />
+                  <Input
+                    inputType="text"
+                    label="REFERRAL"
+                    iconPosition="right"
+                    isMaterial={true}
+                    className="email_input"
+                    style={{ marginTop: "40px" }}
+                  />
+                  <Box>
+                    {" "}
+                    <label htmlFor="">LENGTH OF STAY*</label>
+                  </Box>
+                  <DatePicker
+                    selected={startDate}
+                    name={startDate}
+                    className="date_input"
+                    dateFormat="dd/MM/yyyy"
+                    onChange={(date) => setStartDate(date)}
+                    selectsStart
+                    startDate={startDate}
+                    endDate={endDate}
+                  />
+                  To
+                  <DatePicker
+                    selected={endDate}
+                    name={endDate}
+                    className="date_input"
+                    dateFormat="dd/MM/yyyy"
+                    onChange={(date) => setEndDate(date)}
+                    selectsEnd
+                    startDate={startDate}
+                    endDate={endDate}
+                    minDate={startDate}
+                  />
+                  <Box>
+                    <Button
+                      {...buttonStyle}
+                      title="Send    "
+                      style={{ marginTop: "30px", background: "#000" }}
+                    />
+                  </Box>
+                </Container>
+              </ContactFormWrapper>
+            </Box>
+          </form>
         </NewsletterWrapper>
       </Container>
     </Box>
@@ -174,7 +197,7 @@ Newsletter.defaultProps = {
     zIndex: 1,
   },
   buttonStyle: {
-    type: "button",
+    type: "submit",
     fontSize: "18px",
     fontWeight: "700",
     pl: "30px",

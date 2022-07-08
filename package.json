@@ -14,11 +14,13 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.6.2",
     "@glidejs/glide": "^3.4.1",
     "@reach/accordion": "^0.16.1",
     "@redq/reuse-modal": "^1.1.9",
     "@styled-system/theme-get": "^5.1.2",
     "animate.css": "^4.1.1",
+    "emailjs": "^4.0.0",
     "firebase-admin": "^9.6.0",
     "firebase-functions": "^3.13.2",
     "next": "^12.1.6",

@@ -8,6 +8,9 @@ const NewsletterWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  form {
+    display: flex;
+  }
   @media (max-width: 1220px) {
     padding: 35px 40px;
   }
@@ -18,9 +21,9 @@ const NewsletterWrapper = styled.div`
     position: relative;
     width: 40% !important;
   }
-  .emil {
-    margin-top: -25px;
-  }
+  // .emil {
+  //   margin-top: -25px;
+  // }
   .join_section {
     padding-top: 100px;
   }

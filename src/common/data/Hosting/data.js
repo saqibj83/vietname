@@ -418,66 +418,82 @@ export const DOMAIN_NAMES = [
   {
     label: "",
     value: "",
+    name: "",
   },
   {
     label: "More than 1 Event",
     value: "more",
+    name: "More than 1 Event",
   },
   {
     label: "All Event",
     value: "all",
+    name: " All Event",
   },
   {
     label: "Event 1",
     value: "event1",
+    name: "Event 1",
   },
   {
     label: "Event 2",
     value: "event2",
+    name: "Event 2",
   },
   {
     label: "Event 3",
     value: "event3",
+    name: "Event 3",
   },
   {
     label: "Event 4",
     value: "event4",
+    name: "Event 4",
   },
   {
     label: "Event 5",
     value: "event5",
+    name: "Event 5",
   },
   {
     label: "Event 6",
     value: "event6",
+    name: "Event 6",
   },
   {
     label: "Event 7",
     value: "event7",
+    name: "Event 7",
   },
   {
     label: "Event 8",
     value: "event8",
+    name: "Event 8",
   },
   {
     label: "Event 9",
     value: "event9",
+    nname: "Event 9",
   },
   {
     label: "Event 10",
-    value: "event110",
+    value: "event10",
+    name: "Event 10",
   },
   {
     label: "Event 11",
-    value: "event111",
+    value: "event11",
+    name: "Event 11",
   },
   {
     label: "Event 12",
-    value: "event112",
+    value: "event12",
+    nname: "Event 12",
   },
   {
     label: "Event 13",
     value: "event13",
+    name: "Event 14",
   },
 ];
 
