@@ -30,7 +30,12 @@ const Newsletter = ({
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "template_snk0woo", e.target, "FgtB5FqTc25g3XcAt")
+      .sendForm(
+        "service_jm13zdw",
+        "template_snk0woo",
+        form.current,
+        "FgtB5FqTc25g3XcAt"
+      )
       .then(
         (result) => {
           console.log(result.text);
