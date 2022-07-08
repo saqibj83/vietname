@@ -24,6 +24,7 @@ const Newsletter = ({
 }) => {
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
+  const [message, setmessage] = useState();
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -39,12 +40,13 @@ const Newsletter = ({
       .then(
         (result) => {
           console.log(result.text);
+          setmessage("Request Submited Successfully");
         },
         (error) => {
           console.log(error.text);
         }
       );
-    form.current.reset();
+    form.reset();
   };
 
   return (
@@ -69,6 +71,7 @@ const Newsletter = ({
                     iconPosition="right"
                     isMaterial={true}
                     className="email_input"
+                    required
                   />
                   <Input
                     inputType="text"
@@ -76,6 +79,7 @@ const Newsletter = ({
                     iconPosition="right"
                     isMaterial={true}
                     className="email_input"
+                    required
                   />
                   <Box>
                     {" "}
@@ -105,6 +109,7 @@ const Newsletter = ({
                     iconPosition="right"
                     isMaterial={true}
                     className="email_input emil"
+                    required
                   />
                   <Select
                     options={DOMAIN_NAMES}
@@ -148,6 +153,16 @@ const Newsletter = ({
                     minDate={startDate}
                   />
                   <Box>
+                    <p
+                      style={{
+                        color: "#EBA800",
+                        color: "rgb(235, 168, 0)",
+                        marginBottom: "0px",
+                        fontWeight: "700",
+                      }}
+                    >
+                      {message}
+                    </p>
                     <Button
                       {...buttonStyle}
                       title="Send    "
