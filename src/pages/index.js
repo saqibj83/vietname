@@ -25,7 +25,7 @@ const SaasClassic = () => {
       <Fragment>
         <Head>
           <title>Triton | Cyprus 2022 </title>
-          <meta name="Description" content="React next landing page" />
+          <meta name="Description" content="Triton Super High Roller Series" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link href="https://use.typekit.net/wtc2zlg.css" rel="stylesheet" />
