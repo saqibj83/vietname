@@ -46,7 +46,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Accommodation" key="2">
             <ul>
               <li>Arrival: 4th of September 2022</li>
-              <li>Departure: 18th of September 2022</li>
+              <li>Departure: 20th of September 2022</li>
               <li>
                 During Triton Series CYPRUS complimentary accommodation is
                 offered to players who will qualify for the USD 250K combined
