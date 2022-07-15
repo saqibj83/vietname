@@ -55,319 +55,312 @@ const ServiceSection = ({
             </thead>
             <tbody>
               <tr>
-                <td>2PM</td>
+                <td>2 PM</td>
                 <td>
-                  Monday <br /> Sep 05, 2022
-                </td>
-                <td>1</td>
-                <td>
-                  NLH - 8 <br className="non-mob" /> Handed
-                </td>
-                <td>$25,000</td>
-                <td>200,000</td>
-                <td>30 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>
-                  Tuesday
-                  <br /> Sep 06, 2022
-                </td>
-                <td>2</td>
-                <td>
-                  NLH - 8 <br className="non-mob" /> Handed
-                </td>
-                <td>$25,000</td>
-                <td>200,000</td>
-                <td>30 Min</td>
-              </tr>
-              <tr>
-                <td>3PM</td>
-                <td>
-                  Tuesday
-                  <br /> Sep 06, 2022
-                </td>
-                <td>1</td>
-                <td>NLH - 6 Handed</td>
-                <td>$50,000</td>
-                <td>200,000</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>
-                  Wednesday
-                  <br /> Sep 07, 2022
-                </td>
-                <td>2</td>
-                <td>NLH - 6 Handed</td>
-                <td>$50,000</td>
-                <td>200,000</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>4PM</td>
-                <td>
-                  Wednesday
-                  <br /> Sep 07, 2022
+                  Monday <br /> 5 Sep, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - 8 Handed</td>
-                <td>$75,000</td>
+                <td>$25,000</td>
                 <td>200,000</td>
-                <td>40 Min</td>
+                <td>TBC </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Thursday
-                  <br /> Sep 08, 2022
+                  Tuesday <br /> 6 Sep, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - 8 Handed</td>
-                <td>$75,000</td>
+                <td>$25,000</td>
                 <td>200,000</td>
-                <td>40 Min</td>
+                <td>TBC </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>3 PM</td>
                 <td>
-                  Thursday
-                  <br /> Sep 08, 2022
+                  Tuesday <br /> 6 Sep, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>30 Min</td>
+                <td>30 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Friday
-                  <br /> Sep 09, 2022
+                  Wednesday <br /> 7 Sep, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30,000</td>
                 <td>200,000</td>
-                <td>30 Min</td>
+                <td>30 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>3 PM</td>
                 <td>
-                  Friday
-                  <br /> Sep 09, 2022
+                  Wednesday <br /> 7 Sep, 2022
+                </td>
+                <td>1</td>
+                <td>NLH - 6 Handed</td>
+                <td>$50,000</td>
+                <td>200,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  Thursday <br /> 8 Sep, 2022
+                </td>
+                <td>2</td>
+                <td>NLH - 6 Handed</td>
+                <td>$50,000</td>
+                <td>200,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>4 PM</td>
+                <td>
+                  Thursday <br /> 8 Sep, 2022
+                </td>
+                <td>1</td>
+                <td>NLH - 8 Handed</td>
+                <td>$75,000</td>
+                <td>200,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  Friday <br /> 9 Sep, 2022
+                </td>
+                <td>2</td>
+                <td>NLH - 8 Handed</td>
+                <td>$75,000</td>
+                <td>200,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>2 PM</td>
+                <td>
+                  Saturday <br /> 10 Sep, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Saturday
-                  <br /> Sep 10, 2022
+                  Sunday <br /> 11 Sep, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
-                  Saturday
-                  <br /> Sep 10, 2022
+                  Sunday <br /> 11 Sep, 2022
                 </td>
                 <td>1</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25,000</td>
                 <td>200,000</td>
-                <td>30 Min</td>
+                <td>30 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Sunday
-                  <br /> Sep 11, 2022
+                  Monday <br /> 12 Sep, 2022
                 </td>
                 <td>FT</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200,000</td>
                 <td>300,000</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Sunday
-                  <br /> Sep 11, 2022
+                  Monday <br /> 12 Sep, 2022
                 </td>
                 <td>2</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25,000</td>
-                <td>200,000 </td>
-                <td>30 Min</td>
+                <td>200,000</td>
+                <td>30 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
-                  Sunday
-                  <br /> Sep 11, 2022
+                  Monday <br /> 12 Sep, 2022
                 </td>
                 <td>1</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Monday
-                  <br /> Sep 12, 2022
+                  Tuesday <br /> 13 Sep, 2022
                 </td>
                 <td>2</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
-                  Monday
-                  <br /> Sep 12, 2022
+                  Tuesday <br /> 13 Sep, 2022
                 </td>
                 <td>SINGLE</td>
                 <td>NLH - TURBO</td>
                 <td>$50,000</td>
                 <td>200,000</td>
-                <td>20 Min</td>
+                <td>20 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Tuesday
-                  <br /> Sep 13, 2022
+                  Wednesday <br /> 14 Sep, 2022
                 </td>
                 <td>FT</td>
                 <td>NLH - Main Event</td>
                 <td>$100,000</td>
                 <td>250,000</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
-                <td>3PM</td>
+                <td>4 PM</td>
                 <td>
-                  Tuesday
-                  <br /> Sep 13, 2022
-                </td>
-                <td>1</td>
-                <td>SD Ante-Only - 1 Bullet</td>
-                <td>$50,000</td>
-                <td>400,000</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>
-                  Wednesday
-                  <br /> Sep 14, 2022
-                </td>
-                <td>2</td>
-                <td>SD Ante-Only - 1 Bullet</td>
-                <td>$50,000</td>
-                <td>400,000</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>3PM</td>
-                <td>
-                  Wednesday
-                  <br /> Sep 14, 2022
-                </td>
-                <td>1</td>
-                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
-                <td>$40,000</td>
-                <td>400,000</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>
-                  Thursday
-                  <br /> Sep 15, 2022
-                </td>
-                <td>2</td>
-                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
-                <td>$40,000</td>
-                <td>400,000</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>4PM</td>
-                <td>
-                  Thursday
-                  <br /> Sep 15, 2022
-                </td>
-                <td>1</td>
-                <td>SD - Main Event</td>
-                <td>$100,000</td>
-                <td>100,000 x3</td>
-                <td>45 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>
-                  Friday
-                  <br /> Sep 16, 2022
-                </td>
-                <td>2</td>
-                <td>SD - Main Event</td>
-                <td>$100,000</td>
-                <td>100,000 x3</td>
-                <td>45 Min</td>
-              </tr>
-              <tr>
-                <td>3PM</td>
-                <td>
-                  Friday
-                  <br /> Sep 16, 2022
+                  Wednesday <br /> 14 Sep, 2022
                 </td>
                 <td>1</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30,000</td>
                 <td>100,000 x3</td>
-                <td>35 Min</td>
+                <td>35 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
-                  Saturday
-                  <br /> Sep 17, 2022
+                  Thursday <br /> 15 Sep, 2022
                 </td>
                 <td>2</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30,000</td>
                 <td>100,000 x3</td>
-                <td>35 Min</td>
+                <td>35 Min </td>
               </tr>
               <tr>
-                <td>3PM</td>
+                <td>3 PM</td>
                 <td>
-                  Saturday
-                  <br /> Sep 17, 2022
+                  Thursday <br /> 15 Sep, 2022
                 </td>
-                <td>SINGLE</td>
-                <td>Short Deck Ante-Only - TURBO</td>
+                <td>1</td>
+                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td>$40,000</td>
+                <td>400,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  Friday <br /> 16 Sep, 2022
+                </td>
+                <td>2</td>
+                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td>$40,000</td>
+                <td>400,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>3 PM</td>
+                <td>
+                  Friday <br /> 16 Sep, 2022
+                </td>
+                <td>1</td>
+                <td>SD Ante-Only - 1 Bullet</td>
+                <td>$50,000</td>
+                <td>400,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  Saturday <br /> 17 Sep, 2022
+                </td>
+                <td>2</td>
+                <td>SD Ante-Only - 1 Bullet</td>
+                <td>$50,000</td>
+                <td>400,000</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>5 PM</td>
+                <td>
+                  Saturday <br /> 17 Sep, 2022
+                </td>
+                <td>1</td>
+                <td>SD - Main Event</td>
+                <td>$100,000</td>
+                <td>100,000 x3</td>
+                <td>45 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  Sunday <br /> 18 Sep, 2022
+                </td>
+                <td>2</td>
+                <td>SD - Main Event</td>
+                <td>$100,000</td>
+                <td>100,000 x3</td>
+                <td>45 Min </td>
+              </tr>
+              <tr>
+                <td>5 PM</td>
+                <td>
+                  Sunday <br /> 18 Sep, 2022
+                </td>
+                <td>1</td>
+                <td>Short Deck Ante-Only</td>
                 <td>$25,000</td>
                 <td>100,000 x3</td>
-                <td>20 Min</td>
+                <td>30 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  Monday <br /> 19 Sep, 2022
+                </td>
+                <td>FT</td>
+                <td>SD - Main Event</td>
+                <td>$100,000</td>
+                <td>100,000 x3</td>
+                <td>45 Min </td>
+              </tr>
+              <tr>
+                <td>3 PM</td>
+                <td>
+                  Monday <br /> 19 Sep, 2022
+                </td>
+                <td>2</td>
+                <td>Short Deck Ante-Only</td>
+                <td>$25,000</td>
+                <td>100,000 x3</td>
+                <td>30 Min</td>
               </tr>
             </tbody>
           </table>
@@ -384,7 +377,9 @@ const ServiceSection = ({
                   <h5>Date</h5>
                 </th>
                 <th>
-                  <h5>Day</h5>
+                  <h5>
+                    Day <br />
+                  </h5>
                 </th>
                 <th>
                   <h5>Event</h5>
@@ -403,241 +398,311 @@ const ServiceSection = ({
             <tbody>
               <tr>
                 <td>2PM</td>
-                <td>MON Sep 05</td>
-                <td>1</td>
                 <td>
-                  NLH - 8 <br className="non-mob" /> Handed
+                  Mon <br /> 5 Sep
                 </td>
+                <td>1</td>
+                <td>NLH - 8 Handed</td>
                 <td>$25K</td>
                 <td>200K</td>
-                <td>30 Min</td>
+                <td>TBC </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>TUE Sep 06</td>
-                <td>2</td>
                 <td>
-                  NLH - 8 <br className="non-mob" /> Handed
+                  Tue <br /> 6 Sep
                 </td>
+                <td>2</td>
+                <td>NLH - 8 Handed</td>
                 <td>$25K</td>
                 <td>200K</td>
-                <td>30 Min</td>
+                <td>TBC </td>
               </tr>
               <tr>
                 <td>3PM</td>
-                <td>TUE Sep 06</td>
-                <td>1</td>
-                <td>NLH - 6 Handed</td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>WED Sep 07</td>
-                <td>2</td>
-                <td>NLH - 6 Handed</td>
-                <td>$50K</td>
-                <td>200K</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>4PM</td>
-                <td>WED Sep 07</td>
-                <td>1</td>
-                <td>NLH - 8 Handed</td>
-                <td>$75K</td>
-                <td>200K</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>THU Sep 08</td>
-                <td>2</td>
-                <td>NLH - 8 Handed</td>
-                <td>$75K</td>
-                <td>200K</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>4PM</td>
-                <td>THU Sep 08</td>
+                <td>
+                  Tue <br /> 6 Sep
+                </td>
                 <td>1</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30K</td>
                 <td>200K</td>
-                <td>30 Min</td>
+                <td>30 Min </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>FRI Sep 09</td>
+                <td>
+                  Wed <br /> 7 Sep
+                </td>
                 <td>2</td>
                 <td>NLH - 6 Handed</td>
                 <td>$30K</td>
                 <td>200K</td>
-                <td>30 Min</td>
+                <td>30 Min </td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>
+                  Wed <br /> 7 Sep
+                </td>
+                <td>1</td>
+                <td>NLH - 6 Handed</td>
+                <td>$50K</td>
+                <td>200K</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>
+                  Thu <br /> 8 Sep
+                </td>
+                <td>2</td>
+                <td>NLH - 6 Handed</td>
+                <td>$50K</td>
+                <td>200K</td>
+                <td>40 Min </td>
               </tr>
               <tr>
                 <td>4PM</td>
-                <td>FRI Sep 09</td>
+                <td>
+                  Thu <br /> 8 Sep
+                </td>
+                <td>1</td>
+                <td>NLH - 8 Handed</td>
+                <td>$75K</td>
+                <td>200K</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>
+                  Fri <br /> 9 Sep
+                </td>
+                <td>2</td>
+                <td>NLH - 8 Handed</td>
+                <td>$75K</td>
+                <td>200K</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>2PM</td>
+                <td>
+                  Sat <br /> 10 Sep
+                </td>
                 <td>1</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200K</td>
                 <td>300K</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>SAT Sep 10</td>
+                <td>
+                  Sun <br /> 11 Sep
+                </td>
                 <td>2</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200K</td>
                 <td>300K</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
                 <td>4PM</td>
-                <td>SAT Sep 10</td>
+                <td>
+                  Sun <br /> 11 Sep
+                </td>
                 <td>1</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25K</td>
                 <td>200K</td>
-                <td>30 Min</td>
+                <td>30 Min </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>SUN Sep 11</td>
+                <td>
+                  Mon <br /> 12 Sep
+                </td>
                 <td>FT</td>
                 <td>NLH - Coin Rivet Invitational</td>
                 <td>$200K</td>
                 <td>300K</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>SUN Sep 11</td>
+                <td>
+                  Mon <br /> 12 Sep
+                </td>
                 <td>2</td>
                 <td>Pot Limit Omaha</td>
                 <td>$25K</td>
-                <td>200K </td>
-                <td>30 Min</td>
+                <td>200K</td>
+                <td>30 Min </td>
               </tr>
               <tr>
                 <td>4PM</td>
-                <td>SUN Sep 11</td>
+                <td>
+                  Mon <br /> 12 Sep
+                </td>
                 <td>1</td>
                 <td>NLH - Main Event</td>
                 <td>$100K</td>
                 <td>250K</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>MON Sep 12</td>
+                <td>
+                  Tue <br /> 13 Sep
+                </td>
                 <td>2</td>
                 <td>NLH - Main Event</td>
                 <td>$100K</td>
                 <td>250K</td>
-                <td>50 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
                 <td>4PM</td>
-                <td>MON Sep 12</td>
+                <td>
+                  Tue <br /> 13 Sep
+                </td>
                 <td>SINGLE</td>
                 <td>NLH - TURBO</td>
                 <td>$50K</td>
                 <td>200K</td>
-                <td>20 Min</td>
+                <td>20 Min </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>TUE Sep 13</td>
+                <td>
+                  Wed <br /> 14 Sep
+                </td>
                 <td>FT</td>
                 <td>NLH - Main Event</td>
                 <td>$100K</td>
                 <td>250K</td>
-                <td>50 Min</td>
-              </tr>
-              <tr>
-                <td>3PM</td>
-                <td>TUE Sep 13</td>
-                <td>1</td>
-                <td>SD Ante-Only - 1 Bullet</td>
-                <td>$50K</td>
-                <td>400K</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>WED Sep 14</td>
-                <td>2</td>
-                <td>SD Ante-Only - 1 Bullet</td>
-                <td>$50K</td>
-                <td>400K</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>3PM</td>
-                <td>WED Sep 14</td>
-                <td>1</td>
-                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
-                <td>$40K</td>
-                <td>400K</td>
-                <td>40 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>THU Sep 15</td>
-                <td>2</td>
-                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
-                <td>$40K</td>
-                <td>400K</td>
-                <td>40 Min</td>
+                <td>50 Min </td>
               </tr>
               <tr>
                 <td>4PM</td>
-                <td>THU Sep 15</td>
-                <td>1</td>
-                <td>SD - Main Event</td>
-                <td>$100K</td>
-                <td>100K x3</td>
-                <td>45 Min</td>
-              </tr>
-              <tr>
-                <td>1PM</td>
-                <td>FRI Sep 16</td>
-                <td>2</td>
-                <td>SD - Main Event</td>
-                <td>$100K</td>
-                <td>100K x3</td>
-                <td>45 Min</td>
-              </tr>
-              <tr>
-                <td>3PM</td>
-                <td>FRI Sep 16</td>
+                <td>
+                  Wed <br /> 14 Sep
+                </td>
                 <td>1</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30K</td>
                 <td>100K x3</td>
-                <td>35 Min</td>
+                <td>35 Min </td>
               </tr>
               <tr>
                 <td>1PM</td>
-                <td>SAT Sep 17</td>
+                <td>
+                  Thu <br /> 15 Sep
+                </td>
                 <td>2</td>
                 <td>Short Deck Ante-Only</td>
                 <td>$30K</td>
                 <td>100K x3</td>
-                <td>35 Min</td>
+                <td>35 Min </td>
               </tr>
               <tr>
                 <td>3PM</td>
-                <td>SAT Sep 17</td>
-                <td>SINGLE</td>
-                <td>Short Deck Ante-Only - TURBO</td>
+                <td>
+                  Thu <br /> 15 Sep
+                </td>
+                <td>1</td>
+                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td>$40K</td>
+                <td>400K</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>
+                  Fri <br /> 16 Sep
+                </td>
+                <td>2</td>
+                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td>$40K</td>
+                <td>400K</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>
+                  Fri <br /> 16 Sep
+                </td>
+                <td>1</td>
+                <td>SD Ante-Only - 1 Bullet</td>
+                <td>$50K</td>
+                <td>400K</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>
+                  Sat <br /> 17 Sep
+                </td>
+                <td>2</td>
+                <td>SD Ante-Only - 1 Bullet</td>
+                <td>$50K</td>
+                <td>400K</td>
+                <td>40 Min </td>
+              </tr>
+              <tr>
+                <td>5PM</td>
+                <td>
+                  Sat <br /> 17 Sep
+                </td>
+                <td>1</td>
+                <td>SD - Main Event</td>
+                <td>$100K</td>
+                <td>100K x3</td>
+                <td>45 Min </td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>
+                  Sun <br /> 18 Sep
+                </td>
+                <td>2</td>
+                <td>SD - Main Event</td>
+                <td>$100K</td>
+                <td>100K x3</td>
+                <td>45 Min </td>
+              </tr>
+              <tr>
+                <td>5PM</td>
+                <td>
+                  Sun <br /> 18 Sep
+                </td>
+                <td>1</td>
+                <td>Short Deck Ante-Only</td>
                 <td>$25K</td>
                 <td>100K x3</td>
-                <td>20 Min</td>
+                <td>30 Min </td>
+              </tr>
+              <tr>
+                <td>1PM</td>
+                <td>
+                  Mon <br /> 19 Sep
+                </td>
+                <td>FT</td>
+                <td>SD - Main Event</td>
+                <td>$100K</td>
+                <td>100K x3</td>
+                <td>45 Min </td>
+              </tr>
+              <tr>
+                <td>3PM</td>
+                <td>
+                  Mon <br /> 19 Sep
+                </td>
+                <td>2</td>
+                <td>Short Deck Ante-Only</td>
+                <td>$25K</td>
+                <td>100K x3</td>
+                <td>30 Min</td>
               </tr>
             </tbody>
           </table>
