@@ -22,7 +22,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <Heading {...secHeading} content="Event Venue and Accommodation" />
         </Box>
         <div className="prime-cta">
-          <Link href="#">
+          <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/20154526/cyprus-booklet.pdf">
             <a>
               <Button
                 title="Download Tournament Structure"
