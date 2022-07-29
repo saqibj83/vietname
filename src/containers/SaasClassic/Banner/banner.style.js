@@ -34,6 +34,10 @@ export const BannerWrapper = styled.section`
   }
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
+    .react-reveal > div {
+      width: 400px !important;
+      height: 225px !important;
+    }
   }
 
   img {
