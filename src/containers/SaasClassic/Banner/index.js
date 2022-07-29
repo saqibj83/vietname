@@ -1,4 +1,5 @@
 import React from "react";
+import ReactPlayer from "react-player";
 import PropTypes from "prop-types";
 import Icon from "react-icons-kit";
 import Fade from "react-reveal/Fade";
@@ -68,7 +69,23 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           </Box>
           <Box {...imageWrapper}>
             <Fade bottom>
-              <NextImage src={BannerImage} alt="banner image" />
+              <ReactPlayer
+                url="https://www.youtube.com/embed/M21-DL5I5z0"
+                light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
+                playing
+                width="1200px"
+                height="470px"
+                controls
+              />
+              {/* <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/M21-DL5I5z0"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe> */}
               {/* <VideoModal>
                 <NextImage src={BannerImage} alt="banner image" />
                 <PlayButton tabIndex="1000" onClick={handleVideoModal}>
