@@ -73,8 +73,8 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 url="https://www.youtube.com/embed/M21-DL5I5z0"
                 light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
                 playing
-                width="100%"
-                height="450px"
+                width="711px"
+                height="400px"
                 controls
               />
               {/* <iframe

@@ -22,7 +22,12 @@ export const BannerWrapper = styled.section`
   overflow: hidden;
   .video-section {
     width: 100%;
-    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    align-content: center;
   }
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
