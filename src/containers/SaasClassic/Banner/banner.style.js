@@ -29,6 +29,9 @@ export const BannerWrapper = styled.section`
     flex-wrap: nowrap;
     align-content: center;
   }
+  .react-player__play-icon {
+    border-color: transparent transparent transparent red !important;
+  }
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
   }
