@@ -67,14 +67,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           <Box {...contentWrapper}>
             <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
           </Box>
-          <Box {...imageWrapper}>
+          <div className="video-section">
             <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/M21-DL5I5z0"
                 light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
                 playing
-                width="1200px"
-                height="470px"
+                width="100%"
+                height="450px"
                 controls
               />
               {/* <iframe
@@ -93,7 +93,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 </PlayButton>
               </VideoModal> */}
             </Fade>
-          </Box>
+          </div>
           <Box {...contentWrapper}>
             <p
               style={{

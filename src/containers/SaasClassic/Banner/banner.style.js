@@ -20,6 +20,10 @@ export const BannerWrapper = styled.section`
   background-size: cover;
   background-position: top center;
   overflow: hidden;
+  .video-section {
+    width: 100%;
+    height: 500px;
+  }
   @media (max-width: 575px) {
     padding: 120px 0 0 0;
   }
