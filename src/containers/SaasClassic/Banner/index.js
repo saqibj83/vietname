@@ -1,23 +1,14 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import PropTypes from "prop-types";
-import Icon from "react-icons-kit";
 import Fade from "react-reveal/Fade";
 import { openModal, closeModal } from "@redq/reuse-modal";
 import Box from "common/components/Box";
-import Heading from "common/components/Heading";
 import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
-import {
-  BannerWrapper,
-  VideoModal,
-  PlayButton,
-  VideoWrapper,
-} from "./banner.style";
-import BannerImage from "common/assets/image/saasClassic/video-banner.png";
+import { BannerWrapper, VideoWrapper } from "./banner.style";
 import Cyprus from "common/assets/image/saasClassic/cyprus-logo.png";
-import { play } from "react-icons-kit/entypo/play";
 
 // close button for modal
 const CloseModalButton = () => (

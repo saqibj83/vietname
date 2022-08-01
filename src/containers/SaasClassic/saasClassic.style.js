@@ -46,6 +46,8 @@ export const GlobalStyle = createGlobalStyle`
   .btn-bg {
     background: linear-gradient( 90deg,rgba(190,123,14,1) 0%,rgba(213,149,42,1) 17%,rgba(203,158,71,1) 35%,rgba(235,194,113,1) 50%,rgba(199,133,28,1) 90%,rgba(215,131,0,1) 100% ) !important
   }
+
+
   @media (max-width: 550px) {
     h3, h4 {
       font-size: 14px;
@@ -154,12 +156,25 @@ export const GlobalStyle = createGlobalStyle`
     background: rgba(0,0,0,0.6) !important;
     border: 0 !important;
     animation: ${Fade} .5s ease-out forwards !important;
+    overflow-y:auto;
+    padding-top:350px;
 
     .innerRndComponent{
       display: flex !important;
       align-items: center !important;
       justify-content: center !important;
       animation: ${FadeUp} .7s ease-out forwards !important;
+    }
+  }
+  @media (max-width: 1500px) {
+    .video-modal {
+      padding-top: 300px;
+    }
+  }
+
+  @media (max-width: 550px) {
+    .video-modal {
+      padding-top: 0 !important;
     }
   }
   .reuseModalOverlay,
@@ -266,6 +281,7 @@ export const ContentWrapper = styled.div`
         display: none;
       }
     }
+
     .reusecore-drawer__handler {
       @media (min-width: 991px) {
         display: none !important;
