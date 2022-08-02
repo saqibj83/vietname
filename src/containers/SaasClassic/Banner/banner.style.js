@@ -31,6 +31,7 @@ export const BannerWrapper = styled.section`
   }
   .react-player__play-icon {
     border-color: transparent transparent transparent red !important;
+    border-width: 46px 0px 46px 56px !important;
   }
   @media (max-width: 575px) {
     padding: 120px 0 0 0;

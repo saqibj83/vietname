@@ -3,6 +3,7 @@ import styled from "styled-components";
 const NewsletterWrapper = styled.div`
   position: relative;
   background: #fff !important;
+  border: 3px solid #eba800 !important;
   padding: 60px 80px 30px;
   border-radius: 10px;
   display: flex;
