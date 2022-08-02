@@ -21,16 +21,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
         <Box {...secTitleWrapper}>
           <Heading {...secHeading} content="Event Venue and Accommodation" />
         </Box>
-        <div className="prime-cta">
-          <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/25190837/cyprus-bookletv8.pdf">
-            <a>
-              <Button
-                title="Download Tournament Structure"
-                className="primary-cta"
-              />
-            </a>
-          </Link>
-        </div>
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe

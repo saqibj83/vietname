@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import PropTypes from "prop-types";
 import Box from "common/components/Box";
 import Heading from "common/components/Heading";
@@ -1040,6 +1041,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </tr>
             </tbody>
           </table>
+        </Box>
+        <Box>
+          <div className="prime-cta">
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/25190837/cyprus-bookletv8.pdf">
+              <a>
+                <Button
+                  title="Download Tournament's Structure"
+                  className="primary-cta"
+                />
+              </a>
+            </Link>
+          </div>
         </Box>
       </Container>
     </SectionWrapper>
