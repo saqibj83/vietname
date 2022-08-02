@@ -1099,7 +1099,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/25190837/cyprus-bookletv8.pdf">
               <a>
                 <Button
-                  title="Download Tournament's Structure"
+                  title="DOWNLOAD TOURNAMENT STRUCTURES"
                   className="primary-cta"
                 />
               </a>
