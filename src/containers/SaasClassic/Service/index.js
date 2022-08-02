@@ -710,9 +710,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Date</h5>
                 </th>
                 <th>
-                  <h5>
-                    Day <br />
-                  </h5>
+                  <h5>Day</h5>
                 </th>
                 <th>
                   <h5>Event</h5>
@@ -730,7 +728,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             </thead>
             <tbody>
               <tr>
-                <td>2PM</td>
+                <td>2 PM</td>
                 <td>
                   Mon <br /> 5 Sep
                 </td>
@@ -743,298 +741,352 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Tue <br /> 6 Sep
                 </td>
                 <td>2</td>
-                <td>NLH - 8 Handed</td>
+                <td onClick={EventModal1} style={{ cursor: "pointer" }}>
+                  #1 NLH - 8 Handed
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>3PM</td>
+                <td>3 PM</td>
                 <td>
                   Tue <br /> 6 Sep
                 </td>
                 <td>1</td>
-                <td>NLH - 6 Handed</td>
+                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
+                  #2 NLH - 6 Handed
+                </td>
                 <td>$30K</td>
                 <td>200K</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Wed <br /> 7 Sep
                 </td>
                 <td>2</td>
-                <td>NLH - 6 Handed</td>
+                <td onClick={EventModal2} style={{ cursor: "pointer" }}>
+                  #2 NLH - 6 Handed
+                </td>
                 <td>$30K</td>
                 <td>200K</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>3PM</td>
+                <td>3 PM</td>
                 <td>
                   Wed <br /> 7 Sep
                 </td>
                 <td>1</td>
-                <td>NLH - 6 Handed</td>
+                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
+                  #3 NLH - 6 Handed
+                </td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Thu <br /> 8 Sep
                 </td>
                 <td>2</td>
-                <td>NLH - 6 Handed</td>
+                <td onClick={EventModal3} style={{ cursor: "pointer" }}>
+                  #3 NLH - 6 Handed
+                </td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
                   Thu <br /> 8 Sep
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed</td>
+                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
+                  #5 NLH - 8 Handed
+                </td>
                 <td>$75K</td>
                 <td>200K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Fri <br /> 9 Sep
                 </td>
                 <td>2</td>
-                <td>NLH - 8 Handed</td>
+                <td onClick={EventModal5} style={{ cursor: "pointer" }}>
+                  #5 NLH - 8 Handed
+                </td>
                 <td>$75K</td>
                 <td>200K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>2PM</td>
+                <td>2 PM</td>
                 <td>
                   Sat <br /> 10 Sep
                 </td>
                 <td>1</td>
-                <td>NLH - Coin Rivet Invitational</td>
+                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
+                  #6 NLH - Coin Rivet Invitational
+                </td>
                 <td>$200K</td>
                 <td>300K</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Sun <br /> 11 Sep
                 </td>
                 <td>2</td>
-                <td>NLH - Coin Rivet Invitational</td>
+                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
+                  #6 NLH - Coin Rivet Invitational
+                </td>
                 <td>$200K</td>
                 <td>300K</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
                   Sun <br /> 11 Sep
                 </td>
                 <td>1</td>
-                <td>Pot Limit Omaha</td>
+                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
+                  #7 Pot Limit Omaha
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Mon <br /> 12 Sep
                 </td>
                 <td>FT</td>
-                <td>NLH - Coin Rivet Invitational</td>
+                <td onClick={EventModal6} style={{ cursor: "pointer" }}>
+                  #6 NLH - Coin Rivet Invitational
+                </td>
                 <td>$200K</td>
                 <td>300K</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Mon <br /> 12 Sep
                 </td>
                 <td>2</td>
-                <td>Pot Limit Omaha</td>
+                <td onClick={EventModal7} style={{ cursor: "pointer" }}>
+                  #7 Pot Limit Omaha
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
                   Mon <br /> 12 Sep
                 </td>
                 <td>1</td>
-                <td>NLH - Main Event</td>
+                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
+                  #8 NLH - Main Event
+                </td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Tue <br /> 13 Sep
                 </td>
                 <td>2</td>
-                <td>NLH - Main Event</td>
+                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
+                  #8 NLH - Main Event
+                </td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
                   Tue <br /> 13 Sep
                 </td>
                 <td>SINGLE</td>
-                <td>NLH - TURBO</td>
+                <td onClick={EventModal9} style={{ cursor: "pointer" }}>
+                  #9 NLH 8-Handed TURBO
+                </td>
                 <td>$50K</td>
                 <td>200K</td>
                 <td>20 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Wed <br /> 14 Sep
                 </td>
                 <td>FT</td>
-                <td>NLH - Main Event</td>
+                <td onClick={EventModal8} style={{ cursor: "pointer" }}>
+                  #8 NLH - Main Event
+                </td>
                 <td>$100K</td>
                 <td>250K</td>
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>4PM</td>
+                <td>4 PM</td>
                 <td>
                   Wed <br /> 14 Sep
                 </td>
                 <td>1</td>
-                <td>Short Deck Ante-Only</td>
+                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
+                  #10 Short Deck Ante-Only
+                </td>
                 <td>$30K</td>
                 <td>100K x3</td>
                 <td>35 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Thu <br /> 15 Sep
                 </td>
                 <td>2</td>
-                <td>Short Deck Ante-Only</td>
+                <td onClick={EventModal10} style={{ cursor: "pointer" }}>
+                  #10 Short Deck Ante-Only
+                </td>
                 <td>$30K</td>
                 <td>100K x3</td>
                 <td>35 Min </td>
               </tr>
               <tr>
-                <td>3PM</td>
+                <td>3 PM</td>
                 <td>
                   Thu <br /> 15 Sep
                 </td>
                 <td>1</td>
-                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 SD Ante-Only - 1 Bullet (PL PF)
+                </td>
                 <td>$40K</td>
                 <td>400K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Fri <br /> 16 Sep
                 </td>
                 <td>2</td>
-                <td>SD Ante-Only - 1 Bullet (PL PF)</td>
+                <td onClick={EventModal11} style={{ cursor: "pointer" }}>
+                  #11 SD Ante-Only - 1 Bullet (PL PF)
+                </td>
                 <td>$40K</td>
                 <td>400K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>3PM</td>
+                <td>3 PM</td>
                 <td>
                   Fri <br /> 16 Sep
                 </td>
                 <td>1</td>
-                <td>SD Ante-Only - 1 Bullet</td>
+                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
+                  #12 SD Ante-Only - 1 Bullet
+                </td>
                 <td>$50K</td>
                 <td>400K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Sat <br /> 17 Sep
                 </td>
                 <td>2</td>
-                <td>SD Ante-Only - 1 Bullet</td>
+                <td onClick={EventModal12} style={{ cursor: "pointer" }}>
+                  #12 SD Ante-Only - 1 Bullet
+                </td>
                 <td>$50K</td>
                 <td>400K</td>
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>5PM</td>
+                <td>5 PM</td>
                 <td>
                   Sat <br /> 17 Sep
                 </td>
                 <td>1</td>
-                <td>SD - Main Event</td>
+                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
+                  #13 SD - Main Event
+                </td>
                 <td>$100K</td>
                 <td>100K x3</td>
                 <td>45 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Sun <br /> 18 Sep
                 </td>
                 <td>2</td>
-                <td>SD - Main Event</td>
+                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
+                  #13 SD - Main Event
+                </td>
                 <td>$100K</td>
                 <td>100K x3</td>
                 <td>45 Min </td>
               </tr>
               <tr>
-                <td>5PM</td>
+                <td>5 PM</td>
                 <td>
                   Sun <br /> 18 Sep
                 </td>
                 <td>1</td>
-                <td>Short Deck Ante-Only</td>
+                <td onClick={EventModal14} style={{ cursor: "pointer" }}>
+                  #14 Short Deck Ante-Only
+                </td>
                 <td>$25K</td>
                 <td>100K x3</td>
                 <td>30 Min </td>
               </tr>
               <tr>
-                <td>1PM</td>
+                <td>1 PM</td>
                 <td>
                   Mon <br /> 19 Sep
                 </td>
                 <td>FT</td>
-                <td>SD - Main Event</td>
+                <td onClick={EventModal13} style={{ cursor: "pointer" }}>
+                  #13 SD - Main Event
+                </td>
                 <td>$100K</td>
                 <td>100K x3</td>
                 <td>45 Min </td>
               </tr>
               <tr>
-                <td>3PM</td>
+                <td>3 PM</td>
                 <td>
                   Mon <br /> 19 Sep
                 </td>
                 <td>2</td>
-                <td>Short Deck Ante-Only</td>
+                <td onClick={EventModal14} style={{ cursor: "pointer" }}>
+                  #14 Short Deck Ante-Only
+                </td>
                 <td>$25K</td>
                 <td>100K x3</td>
                 <td>30 Min</td>
