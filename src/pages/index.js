@@ -24,9 +24,16 @@ const SaasClassic = () => {
     <ThemeProvider theme={saasClassicTheme}>
       <Fragment>
         <Head>
-          <title>Triton | Cyprus 2022 </title>
-          <meta name="Description" content="Triton Super High Roller Series" />
+          <title>Triton Poker Series | Cyprus 2022 </title>
+          <meta
+            name="Description"
+            content="Triton Super High Roller Series 2022"
+          />
           <meta name="theme-color" content="#ec5555" />
+          <meta
+            name="google-site-verification"
+            content="OUn2prDdnV-MyCWAa56nnZAV-dqzTiN7b3zaOyhPAUA"
+          />
           {/* Load google fonts */}
           <link href="https://use.typekit.net/wtc2zlg.css" rel="stylesheet" />
         </Head>
