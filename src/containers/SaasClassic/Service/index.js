@@ -303,6 +303,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             "
           />
         </Box>
+        <Box>
+          <div className="prime-cta">
+            <Link href="https://coin-rivet.triton-series.com/">
+              <a target="_blank">
+                <Button
+                  title="COIN RIVET INVITATIONAL HOMEPAGE"
+                  className="primary-cta"
+                />
+              </a>
+            </Link>
+          </div>
+        </Box>
         <Box className="non-desktop">
           <table className="tble">
             <thead>
