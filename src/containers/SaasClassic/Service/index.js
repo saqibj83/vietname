@@ -306,7 +306,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
-            <Link href="https://coin-rivet.triton-series.com/">
+            <Link href="https://click.triton-series.com/Coin-Rivet-Invitational">
               <a target="_blank">
                 <NextImage
                   className="img-cta"
@@ -320,7 +320,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://coin-rivet.triton-series.com/">
+            <Link href="https://click.triton-series.com/Coin-Rivet-Invitational">
               <a target="_blank">
                 <Button
                   title="COIN RIVET INVITATIONAL HOMEPAGE"
