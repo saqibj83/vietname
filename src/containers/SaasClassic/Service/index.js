@@ -22,6 +22,7 @@ import Event11 from "common/assets/image/booklet/event-11.jpg";
 import Event12 from "common/assets/image/booklet/event-12.jpg";
 import Event13 from "common/assets/image/booklet/event-13.jpg";
 import Event14 from "common/assets/image/booklet/event-14.jpg";
+import Coin from "common/assets/image/saasClassic/inventional-1.png";
 
 const CloseModalButton = () => (
   <Button
@@ -304,9 +305,23 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
           />
         </Box>
         <Box>
+          <div className="prime-cta" style={{ marginTop: "-40px" }}>
+            <Link href="https://coin-rivet.triton-series.com/">
+              <a>
+                <NextImage
+                  className="img-cta"
+                  style={{ cursor: "pointer" }}
+                  src={Coin}
+                  alt="Event - 1"
+                />
+              </a>
+            </Link>
+          </div>
+        </Box>
+        <Box>
           <div className="prime-cta">
             <Link href="https://coin-rivet.triton-series.com/">
-              <a target="_blank">
+              <a>
                 <Button
                   title="COIN RIVET INVITATIONAL HOMEPAGE"
                   className="primary-cta"
