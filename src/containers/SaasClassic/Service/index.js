@@ -22,6 +22,7 @@ import Event11 from "common/assets/image/booklet/event-11.jpg";
 import Event12 from "common/assets/image/booklet/event-12.jpg";
 import Event13 from "common/assets/image/booklet/event-13.jpg";
 import Event14 from "common/assets/image/booklet/event-14.jpg";
+import Event15 from "common/assets/image/booklet/event-15.jpg";
 import Coin from "common/assets/image/saasClassic/inventional-1.png";
 
 const CloseModalButton = () => (
@@ -45,6 +46,7 @@ const EventEleven = () => <NextImage src={Event11} alt="Event - 11" />;
 const EventTwelve = () => <NextImage src={Event12} alt="Event - 12" />;
 const EventThirteen = () => <NextImage src={Event13} alt="Event - 13" />;
 const EventFourteen = () => <NextImage src={Event14} alt="Event - 14 " />;
+const EventFifteen = () => <NextImage src={Event15} alt="Event - 15 " />;
 
 const ServiceSection = ({ secTitleWrapper, secHeading }) => {
   // modal handler
@@ -294,6 +296,25 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
     });
   };
 
+  const EventModal15 = () => {
+    openModal({
+      config: {
+        className: "video-modal",
+        disableDragging: true,
+        default: {
+          width: "100%",
+          height: "100%",
+          x: 0,
+          y: 0,
+        },
+      },
+      component: EventFifteen,
+      componentProps: {},
+      closeComponent: CloseModalButton,
+      closeOnClickOutside: true,
+    });
+  };
+
   return (
     <SectionWrapper id="event_section">
       <Container>
@@ -476,6 +497,19 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>50 Min </td>
               </tr>
               <tr>
+                <td>4 PM</td>
+                <td>
+                  Saturday <br /> 10 Sep, 2022
+                </td>
+                <td>1</td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #15 NLH - 8 HANDED
+                </td>
+                <td>$20,000</td>
+                <td>200,000</td>
+                <td>25 Min </td>
+              </tr>
+              <tr>
                 <td>1 PM</td>
                 <td>
                   Sunday <br /> 11 Sep, 2022
@@ -487,6 +521,19 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>$200,000</td>
                 <td>300,000</td>
                 <td>50 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  Sunday <br /> 11 Sep, 2022
+                </td>
+                <td>FT</td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #15 NLH - 8 HANDED
+                </td>
+                <td>$20,000</td>
+                <td>200,000</td>
+                <td>25 Min </td>
               </tr>
               <tr>
                 <td>4 PM</td>
@@ -871,6 +918,20 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>300K</td>
                 <td>50 Min </td>
               </tr>
+
+              <tr>
+                <td>4 PM</td>
+                <td>
+                  Sat <br /> 10 Sep
+                </td>
+                <td>1</td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #6 NLH - 8 HANDED
+                </td>
+                <td>$20K</td>
+                <td>200K</td>
+                <td>25 Min </td>
+              </tr>
               <tr>
                 <td>1 PM</td>
                 <td>
@@ -883,6 +944,19 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>$200K</td>
                 <td>300K</td>
                 <td>50 Min </td>
+              </tr>
+              <tr>
+                <td>1 PM</td>
+                <td>
+                  SUN <br /> 11 Sep
+                </td>
+                <td>FT</td>
+                <td onClick={EventModal15} style={{ cursor: "pointer" }}>
+                  #6 NLH - 8 HANDED
+                </td>
+                <td>$20K</td>
+                <td>200K</td>
+                <td>25 Min </td>
               </tr>
               <tr>
                 <td>4 PM</td>
