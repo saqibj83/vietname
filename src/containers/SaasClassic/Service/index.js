@@ -1197,7 +1197,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/17151133/Cyprus-Booklet-TOURNAMENT-STRUCTURE.pdf">
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/26184726/Cyprus-Booklet-TOURNAMENT-SCHEDULE.pdf">
               <a>
                 <Button
                   title="DOWNLOAD TOURNAMENT STRUCTURES"
