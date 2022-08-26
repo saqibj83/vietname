@@ -484,7 +484,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>40 Min </td>
               </tr>
               <tr>
-                <td>2 PM</td>
+                <td>4 PM</td>
                 <td>
                   Saturday <br /> 10 Sep, 2022
                 </td>
@@ -497,7 +497,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>50 Min </td>
               </tr>
               <tr>
-                <td>4 PM</td>
+                <td>2 PM</td>
                 <td>
                   Saturday <br /> 10 Sep, 2022
                 </td>
