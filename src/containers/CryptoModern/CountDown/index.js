@@ -7,7 +7,7 @@ import Button from "common/components/Button";
 import Image from "common/components/Image";
 import Container from "common/components/UI/Container";
 import NormalClock from "./timer";
-const deadline = new Date("2022/09/05 11:51:00+03:00");
+const deadline = new Date("2022/09/05 13:51:00+03:00");
 import SectionWrapper, { ContentWrapper } from "./countdown.style";
 import { Icon } from "react-icons-kit";
 import { facebook } from "react-icons-kit/icomoon/facebook";
