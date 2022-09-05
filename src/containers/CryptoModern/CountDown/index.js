@@ -19,12 +19,12 @@ const CountDownSection = () => {
     <SectionWrapper className="bg-event" id="channel_section">
       <Container>
         <ContentWrapper>
-          <Heading content="COUNTDOWN To Event " />
+          {/* <Heading content="COUNTDOWN To Event " />
           <Fade up>
             <div className="timerCount">
               <NormalClock countdown={deadline} divider="true" />
             </div>
-          </Fade>
+          </Fade> */}
           <h2>LIVE CHANNELS</h2>
           <Link href="https://twitch.tv/tritonpoker">
             <a target="_blank">
