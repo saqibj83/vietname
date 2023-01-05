@@ -44,7 +44,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 18px;
   }
   .btn-bg {
-    background: linear-gradient( 90deg,rgba(190,123,14,1) 0%,rgba(213,149,42,1) 17%,rgba(203,158,71,1) 35%,rgba(235,194,113,1) 50%,rgba(199,133,28,1) 90%,rgba(215,131,0,1) 100% ) !important
+    background: linear-gradient(90deg,#f5bf40,#ffe19c 50%,#f5bf40 100%,#f5bf40 0) !important
   }
 
 

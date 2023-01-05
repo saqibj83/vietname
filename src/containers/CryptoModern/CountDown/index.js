@@ -7,7 +7,7 @@ import Button from "common/components/Button";
 import Image from "common/components/Image";
 import Container from "common/components/UI/Container";
 import NormalClock from "./timer";
-const deadline = new Date("2022/09/05 14:00:00 ");
+const deadline = new Date("2023/03/01 14:00:00 ");
 import SectionWrapper, { ContentWrapper } from "./countdown.style";
 import { Icon } from "react-icons-kit";
 import { facebook } from "react-icons-kit/icomoon/facebook";
@@ -19,12 +19,12 @@ const CountDownSection = () => {
     <SectionWrapper className="bg-event" id="channel_section">
       <Container>
         <ContentWrapper>
-          {/* <Heading content="COUNTDOWN To Event " />
+          <Heading content="COUNTDOWN To Event " />
           <Fade up>
             <div className="timerCount">
               <NormalClock countdown={deadline} divider="true" />
             </div>
-          </Fade> */}
+          </Fade>
           <h2>LIVE CHANNELS</h2>
           <Link href="https://twitch.tv/tritonpoker">
             <a target="_blank">

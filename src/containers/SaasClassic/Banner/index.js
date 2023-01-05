@@ -55,14 +55,14 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
     <BannerWrapper id="banner_section">
       <Container>
         <Box {...row}>
-          <Box {...contentWrapper}>
+          {/* <Box {...contentWrapper}>
             <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
-          </Box>
+          </Box> */}
           <div className="video-section">
             <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/M21-DL5I5z0"
-                light="https://cdn.triton-series.com/wp-content/uploads/2019/12/29120652/video-banner.png"
+                light="https://cdn.triton-series.com/wp-content/uploads/2019/12/05122106/bg-vietnam.png"
                 playing
                 width="711px"
                 height="400px"
@@ -94,8 +94,8 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 lineHeight: "30px",
               }}
             >
-              At the Merit Royal Diamond Hotel <br />
-              Monday 5th to Monday 19th September
+              At the Hoiana Hotel & Suites <br />
+              Wednesday 1st to Monday 13th March
             </p>
           </Box>
         </Box>

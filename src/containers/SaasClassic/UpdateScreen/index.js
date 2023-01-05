@@ -19,12 +19,15 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
     <SectionWrapper id="venue">
       <Container>
         <Box {...secTitleWrapper}>
-          <Heading {...secHeading} content="Event Venue and Accommodation" />
+          <Heading
+            {...secHeading}
+            content="Event Venue and Travel Information"
+          />
         </Box>
         <Tabs className="update-screen-tab">
           <TabPane tab="Venue" key="1">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13016.288956205337!2d33.2107858!3d35.3538535!3m2!1i1024!2i768!4f13.1!3m2!1m1!2sMerit%20Royal%20Diamond%20Hotel%20%26%20Spa!5e0!3m2!1sen!2s!4v1661327645450!5m2!1sen!2s"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15353.865768306523!2d108.4063551!3d15.8320635!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa168e08de8f735e8!2sHoiana%20Hotel%20%26%20Suites!5e0!3m2!1sen!2s!4v1672891162265!5m2!1sen!2s"
               width="100%"
               height="450"
               style={{ border: "0" }}
@@ -33,7 +36,7 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
           </TabPane>
-          <TabPane tab="Accommodation" key="2">
+          {/* <TabPane tab="Accommodation" key="2">
             <ul>
               <li>Arrival: 4th of September 2022</li>
               <li>Departure: 20th of September 2022</li>
@@ -52,54 +55,11 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 </Link>
               </li>
             </ul>
-          </TabPane>
+          </TabPane> */}
           <TabPane tab="Travel Information" key="3">
-            <h2>Entering Cyprus</h2>
+            <h2>Entering Vietnam</h2>
             <h3>Arrival & Transfers</h3>
-            <p>
-              <strong> Ercan International Airport (ECN)</strong> is the primary
-              entry point to the Turkish Republic of North Cyprus (TRNC) via
-              Istanbul, Turkey. It’s a 50 minute drive to Merit Royal Diamond
-              Hotel.
-            </p>
-            <p>
-              <strong>Larnaca International Airport (LCA)</strong> is the
-              primary entry point to the Republic of Cyprus. Travellers arriving
-              in LCA will need to cross the border from South to TRNC to get to
-              Merit Royal Diamond Hotel via land transport which takes 1.5
-              hours, and will need to depart the same way.
-            </p>
-            <p>
-              As of 13-June 2022, travellers are allowed to enter TRNC and the
-              Republic of Cyprus without the requirement of taking a negative
-              PCR test regardless of vaccination status.
-            </p>
-            <ul style={{ paddingLeft: "50px" }}>
-              <li>
-                • Visa is not required for most travellers travelling into TRNC
-                via ECN except Nigeria, Syria, and Armenia.
-              </li>
-              <li>
-                • Visa is not required for nationals of the countries listed
-                here &nbsp;
-                <Link href="https://mfa.gov.cy/no-visa-requirement.html ">
-                  <a target="_blank">
-                    https://mfa.gov.cy/no-visa-requirement.html{" "}
-                  </a>
-                </Link>{" "}
-                &nbsp; travelling into the Republic of Cyprus via LCA
-              </li>
-              <li>
-                • Visa is required for nationals of the countries listed here
-                &nbsp;
-                <Link href="https://mfa.gov.cy/requiring-visa-to-enter.html  ">
-                  <a target="_blank">
-                    https://mfa.gov.cy/requiring-visa-to-enter.html{" "}
-                  </a>
-                </Link>{" "}
-                &nbsp; travelling into the Republic of Cyprus via LCA
-              </li>
-            </ul>
+            <p>Travel Information XXXXxxxx</p>
           </TabPane>
         </Tabs>
       </Container>

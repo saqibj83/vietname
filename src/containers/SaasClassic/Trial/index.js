@@ -39,12 +39,7 @@ const TrialSection = ({
                 TITLE SPONSOR
               </h3>
             </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos1} alt="Marit Poker" />
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
-                OFFICIAL Venue
-              </h3>
-            </Box>
+
             <Box className="vender-logos">
               <NextImage src={VendorLogos2} alt="J&Co." />
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
@@ -54,12 +49,12 @@ const TrialSection = ({
             <Box className="vender-logos ">
               <NextImage src={VendorLogos3} alt="secretlab" />
             </Box>
-            <Box className="vender-logos">
+            {/* <Box className="vender-logos">
               <NextImage src={VendorLogos4} alt="inventional" />
             </Box>
             <Box className="vender-logos">
               <NextImage src={VendorLogos5} alt="Luxon" />
-            </Box>
+            </Box> */}
           </Box>
         </Box>
       </Container>

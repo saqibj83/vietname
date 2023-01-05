@@ -325,7 +325,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
             "
           />
         </Box>
-        <Box>
+        {/* <Box>
           <div className="prime-cta" style={{ marginTop: "-40px" }}>
             <Link href="https://click.triton-series.com/Coin-Rivet-Invitational">
               <a target="_blank">
@@ -350,7 +350,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               </a>
             </Link>
           </div>
-        </Box>
+        </Box> */}
         <Box className="non-desktop">
           <table className="tble">
             <thead>

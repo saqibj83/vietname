@@ -13,7 +13,7 @@ const ButtonStyle = styled.button`
   color: ${themeGet("#000", "#000")};
   background: ${themeGet(
     "colors.primary",
-    "linear-gradient( 90deg,rgba(190,123,14,1) 0%,rgba(213,149,42,1) 17%,rgba(203,158,71,1) 35%,rgba(235,194,113,1) 50%,rgba(199,133,28,1) 90%,rgba(215,131,0,1) 100% )"
+    "linear-gradient(90deg,#f5bf40,#ffe19c 50%,#f5bf40 100%,#f5bf40 0)"
   )};
   min-height: ${themeGet("heights.3", "48")}px;
   min-width: ${themeGet("widths.3", "48")}px;
