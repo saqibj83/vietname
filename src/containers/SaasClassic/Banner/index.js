@@ -61,7 +61,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           <div className="video-section">
             <Fade bottom>
               <ReactPlayer
-                url="https://www.youtube.com/embed/M21-DL5I5z0"
+                url="https://www.youtube.com/embed/4tYPrj6CmcI"
                 light="https://cdn.triton-series.com/wp-content/uploads/2019/12/05122106/bg-vietnam.png"
                 playing
                 width="711px"
@@ -94,7 +94,8 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 lineHeight: "30px",
               }}
             >
-              At the Hoiana Hotel & Suites <br />
+              At the Hoiana Hotel & Suites VIETNAM
+              <br />
               Wednesday 1st to Monday 13th March
             </p>
           </Box>
