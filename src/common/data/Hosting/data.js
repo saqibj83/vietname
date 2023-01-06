@@ -446,11 +446,6 @@ export const DOMAIN_NAMES = [
     name: "Event 3",
   },
   {
-    label: "Event 4",
-    value: "event4",
-    name: "Event 4",
-  },
-  {
     label: "Event 5",
     value: "event5",
     name: "Event 5",
