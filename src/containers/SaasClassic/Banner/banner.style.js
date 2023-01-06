@@ -17,9 +17,18 @@ const Bubble = keyframes`
 export const BannerWrapper = styled.section`
   padding: 150px 0 50px 0;
   background-image: url(${BgIMage?.src});
-  background-size: cover;
+  background-size: contain;
   background-position: top center;
   overflow: hidden;
+
+  @media (max-width: 1500px) {
+    padding: 150px 0 50px 0;
+    background-image: url(${BgIMage?.src});
+    background-size: cover;
+    background-position: top center;
+    overflow: hidden;
+  }
+
   .video-section {
     width: 100%;
     display: flex;
@@ -29,6 +38,7 @@ export const BannerWrapper = styled.section`
     flex-wrap: nowrap;
     align-content: center;
   }
+
   .react-player__play-icon {
     border-color: transparent transparent transparent red !important;
     border-width: 36px 0px 36px 56px !important;

@@ -94,7 +94,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 lineHeight: "30px",
               }}
             >
-              At the Hoiana Hotel & Suites VIETNAM
+              At the Hoiana Resort & Golf VIETNAM
               <br />
               Wednesday 1st to Monday 13th March
             </p>

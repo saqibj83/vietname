@@ -9,10 +9,10 @@ import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
 import VendorLogos from "common/assets/image/saasClassic/gg-h.png";
-import VendorLogos1 from "common/assets/image/saasClassic/marit.png";
+import VendorLogos1 from "common/assets/image/saasClassic/dream.png";
 import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.png";
 import VendorLogos3 from "common/assets/image/saasClassic/secretlab.png";
-import VendorLogos4 from "common/assets/image/saasClassic/inventional.png";
+import VendorLogos4 from "common/assets/image/saasClassic/shamballa.png";
 import VendorLogos5 from "common/assets/image/saasClassic/luxon.png";
 
 const TrialSection = ({
@@ -41,6 +41,10 @@ const TrialSection = ({
             </Box>
 
             <Box className="vender-logos">
+              <NextImage src={VendorLogos1} alt="Shamballa." />
+              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>EVENT HOST</h3>
+            </Box>
+            <Box className="vender-logos">
               <NextImage src={VendorLogos2} alt="J&Co." />
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL TIMEKEEPER
@@ -48,6 +52,9 @@ const TrialSection = ({
             </Box>
             <Box className="vender-logos ">
               <NextImage src={VendorLogos3} alt="secretlab" />
+            </Box>
+            <Box className="vender-logos ">
+              <NextImage src={VendorLogos4} alt="Dream Room" />
             </Box>
             {/* <Box className="vender-logos">
               <NextImage src={VendorLogos4} alt="inventional" />

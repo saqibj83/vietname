@@ -59,7 +59,53 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
           <TabPane tab="Travel Information" key="3">
             <h2>Entering Vietnam</h2>
             <h3>Arrival & Transfers</h3>
-            <p>Travel Information XXXXxxxx</p>
+            <p>
+              Nearest Airport: Da Nang International Airport (60 minutes drive)
+            </p>
+            <p>
+              {" "}
+              We are pleased to offer airport transfers with preferential rates.
+              Please get in touch with our VIP services for information on rates
+              and booking.
+            </p>
+            <h3>Entering Vietnam and Visa Requirements</h3>
+            <p>
+              Please note that it is compulsory for certain countries' passport
+              holders to apply for an online e-visa (single-entry electronic
+              tourist visa), which is valid for a maximum of 30 days. The
+              application fee is USD 25 and 3 working days to proceed. A code
+              will be sent to your email and you need to print out the visa.{" "}
+            </p>
+            <p>
+              Visitors from some countries may enter visa -free and stay for the
+              indicated number of days. Passport holders from Europe, Korea and
+              Japan entering Vietnam will be Visa-free for less than 15 days, we
+              will apply the e-visa extension upon confirmation of your flight
+              date. Note that the maximum is 30 days for e-visa.
+            </p>
+            <p>
+              Purchase medical/travel insurance that covers COVID-19 treatment
+              with a minimum coverage: $10,000. This typically costs about USD
+              40.
+            </p>
+            <p>
+              You may check more details about visa-requirement to Vietnam from
+              this link below.
+              <Link href="https://vietnam.travel/plan-your-trip/visa-requirements">
+                <a target="_blank">
+                  https://vietnam.travel/plan-your-trip/visa-requirements
+                </a>
+              </Link>
+            </p>
+            <p>
+              Players can choose to apply the e-visa on their own or seek for
+              the services from VIP Services. We are happy to provide assistance
+              on e-visa applications through the venue with the following rates:
+            </p>
+            <img
+              src="https://cdn.triton-series.com/wp-content/uploads/2023/01/06134608/main-table-2.png"
+              alt=""
+            />
           </TabPane>
         </Tabs>
       </Container>
