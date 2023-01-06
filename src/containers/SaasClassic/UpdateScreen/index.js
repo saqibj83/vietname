@@ -108,6 +108,13 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
             />
           </TabPane>
         </Tabs>
+        <Box style={{ textAlign: "center", paddingTop: "15px" }}>
+          <Link href="https://triton-series.com/vietnam-accommodation/">
+            <a target="_blank" style={{ color: "#eba800" }}>
+              Click here for accommodation terms and conditions
+            </a>
+          </Link>
+        </Box>
       </Container>
     </SectionWrapper>
   );
