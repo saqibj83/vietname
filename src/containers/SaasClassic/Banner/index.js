@@ -8,7 +8,7 @@ import Button from "common/components/Button";
 import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 import { BannerWrapper, VideoWrapper } from "./banner.style";
-import Cyprus from "common/assets/image/saasClassic/cyprus-logo.png";
+import vietnam from "common/assets/image/saasClassic/vietnam.png";
 
 // close button for modal
 const CloseModalButton = () => (
@@ -55,9 +55,13 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
     <BannerWrapper id="banner_section">
       <Container>
         <Box {...row}>
-          {/* <Box {...contentWrapper}>
-            <NextImage className="cyprus-img" src={Cyprus} alt="cyprus image" />
-          </Box> */}
+          <Box {...contentWrapper}>
+            <NextImage
+              className="cyprus-img"
+              src={vietnam}
+              alt="cyprus image"
+            />
+          </Box>
           <div className="video-section">
             <Fade bottom>
               <ReactPlayer
