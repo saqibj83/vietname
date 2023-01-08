@@ -412,7 +412,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>1 PM</td>
                 <td>
-                  Thursday <br /> March 4, 2023
+                  Saturday <br /> March 4, 2023
                 </td>
                 <td>3</td>
                 <td>NLH - 8 Handed - Mystery Bounty</td>
@@ -423,7 +423,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>3 PM</td>
                 <td>
-                  Thursday <br /> March 4, 2023
+                  Saturday <br /> March 4, 2023
                 </td>
                 <td>5</td>
                 <td>NLH - 7 Handed</td>
@@ -697,7 +697,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>1 PM</td>
                 <td>
-                  Thu <br /> March 4,
+                  Sat <br /> March 4,
                 </td>
                 <td>3</td>
                 <td>NLH - 8 Handed - Mystery Bounty</td>
@@ -708,7 +708,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>3 PM</td>
                 <td>
-                  Thu <br /> March 4,
+                  Sat <br /> March 4,
                 </td>
                 <td>5</td>
                 <td>NLH - 7 Handed</td>
