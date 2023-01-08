@@ -697,7 +697,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>1 PM</td>
                 <td>
-                  Sat <br /> 4 March ,
+                  Sat <br /> 4 March
                 </td>
                 <td>3</td>
                 <td>NLH - 8 Handed - Mystery Bounty</td>
@@ -708,7 +708,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
               <tr>
                 <td>3 PM</td>
                 <td>
-                  Sat <br /> 4 March,
+                  Sat <br /> 4 March
                 </td>
                 <td>5</td>
                 <td>NLH - 7 Handed</td>
