@@ -15,8 +15,7 @@ import facebook from "common/assets/image/saasClassic/facebook.png";
 import twitter from "common/assets/image/saasClassic/twitter.png";
 import instagram from "common/assets/image/saasClassic/instagram.png";
 import youtube from "common/assets/image/saasClassic/youtube.png";
-import twitch from "common/assets/image/saasClassic/twitch.jpg";
-
+import twitch from "common/assets/image/saasClassic/twitch.png";
 import { FOOTER_WIDGET } from "common/data/SaasClassic";
 
 const Footer = ({
