@@ -360,7 +360,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wednesday <br /> 1 March 2023
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed GG Poker SuperMillion$ </td>
+                <td>
+                  NLH - 8 Handed <br /> GG Poker Super Million${" "}
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -371,7 +373,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 2 March 2023
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed GG Poker SuperMillion$ </td>
+                <td>
+                  NLH - 8 Handed <br /> GG Poker Super Million${" "}
+                </td>
                 <td>$25,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
@@ -657,7 +661,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Wed <br /> 1 March
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed GG Poker SuperMillion$ </td>
+                <td>
+                  NLH - 8 Handed <br /> GG Poker SuperMillion${" "}
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
@@ -668,7 +674,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thu <br /> 2 March
                 </td>
                 <td>1</td>
-                <td>NLH - 8 Handed GG Poker SuperMillion$ </td>
+                <td>
+                  NLH - 8 Handed <br /> GG Poker SuperMillion${" "}
+                </td>
                 <td>$25K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
