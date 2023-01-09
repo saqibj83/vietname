@@ -130,7 +130,7 @@ BannerSection.defaultProps = {
     justifyContent: "center",
   },
   contentWrapper: {
-    width: ["100%", "100%", "80%", "55%", "50%"],
+    width: ["100%", "100%", "80%", "55%", "45%"],
     mb: "40px",
   },
   title: {

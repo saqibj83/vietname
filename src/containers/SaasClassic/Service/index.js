@@ -919,14 +919,12 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="#">
-              <a>
-                <Button
-                  title="DOWNLOAD TOURNAMENT STRUCTURES"
-                  className="primary-cta"
-                />
-              </a>
-            </Link>
+            <div className="primary-cta" style={{ marginTop: "10px" }}>
+              DOWNLOAD TOURNAMENT STRUCTURES
+            </div>
+            {/* <Link href="">
+              <a ></a>
+            </Link> */}
             <span class="tooltiptext">Coming Soon</span>
           </div>
         </Box>
