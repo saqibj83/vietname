@@ -66,7 +66,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
             <Fade bottom>
               <ReactPlayer
                 url="https://www.youtube.com/embed/nsnIcHXe_TQ"
-                light="https://cdn.triton-series.com/wp-content/uploads/2019/12/05122106/bg-vietnam.png"
+                // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/05122106/bg-vietnam.png"
                 playing
                 width="711px"
                 height="400px"
