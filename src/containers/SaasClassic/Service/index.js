@@ -666,7 +666,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>
-                  NLH - 8 Handed <br /> GG Poker SuperMillion${" "}
+                  GG Poker <br />
+                  Super Million$ <br />
+                  Live
                 </td>
                 <td>$25K</td>
                 <td>200K</td>
@@ -679,7 +681,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>
-                  NLH - 8 Handed <br /> GG Poker SuperMillion${" "}
+                  GG Poker <br />
+                  Super Million$ <br />
+                  Live
                 </td>
                 <td>$25K</td>
                 <td>200K</td>
