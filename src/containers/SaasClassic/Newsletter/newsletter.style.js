@@ -84,7 +84,8 @@ export const ContactFormWrapper = styled.div`
   }
   @media (max-width: 575px) {
     .date_input {
-      width: 110% !important;
+      width: 115% !important;
+      padding: 10px 0px 5px 10px;
     }
   }
 
