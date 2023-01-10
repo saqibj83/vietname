@@ -79,6 +79,12 @@ export const ContactFormWrapper = styled.div`
     border-left: 0;
     border-right: 0;
   }
+  @media (max-width: 575px) {
+    .date_input {
+      width: 110% !important;
+    }
+  }
+
   .email_input {
     flex-grow: 1;
     margin-right: 20px;

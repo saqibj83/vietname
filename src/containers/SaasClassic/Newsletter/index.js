@@ -50,9 +50,14 @@ const Newsletter = ({
   };
 
   return (
-    <Box {...sectionWrapper} as="section" id="join_section">
+    <Box
+      {...sectionWrapper}
+      as="section"
+      id="join_section"
+      className="fixes-mob"
+    >
       <Container>
-        <Box style={{ paddingTop: "100px" }}>
+        <Box style={{ paddingTop: "50px" }}>
           <Heading
             style={{ marginBottom: "50px" }}
             {...title}

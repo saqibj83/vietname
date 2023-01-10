@@ -3,6 +3,11 @@ import styled from "styled-components";
 const SectionWrapper = styled.section`
   padding: 75px 0 75px 0;
   background: #000;
+
+  @media (max-width: 550px) {
+    padding: 75px 0 5px 0;
+  }
+
   .primary-cta {
     text-decoration: none;
     color: #000;
