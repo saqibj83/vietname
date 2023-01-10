@@ -145,7 +145,7 @@ const Newsletter = ({
                     startDate={startDate}
                     endDate={endDate}
                   />
-                  To
+                  <span className="to">To</span>
                   <DatePicker
                     selected={endDate}
                     name="end_date"

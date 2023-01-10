@@ -66,6 +66,9 @@ export const ContactFormWrapper = styled.div`
     button {
       width: 100%;
     }
+    span.to {
+      padding-left: 15px;
+    }
   }
   .date_input {
     background: transparent;
