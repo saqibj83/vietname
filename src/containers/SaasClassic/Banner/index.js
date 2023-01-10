@@ -70,7 +70,6 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
                 playing
                 width="711px"
                 height="400px"
-                controls
               />
               {/* <iframe
                 width="560"
