@@ -9,20 +9,20 @@ export const MENU_ITEMS = [
     offset: "0",
   },
   {
-    label: "EVENT ",
+    label: "EVENT SCHEDULE",
     path: "#event_section",
     offset: "0",
   },
   {
-    label: "LIVE ",
+    label: "LIVE CHANNEL",
     path: "#channel_section",
     offset: "0",
   },
-  {
-    label: "POY",
-    path: "#poy",
-    offset: "0",
-  },
+  // {
+  //   label: "POY",
+  //   path: "#channel_section",
+  //   offset: "0",
+  // },
   {
     label: "VENUE",
     path: "#venue",
