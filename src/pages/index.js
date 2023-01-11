@@ -16,6 +16,7 @@ import Navbar from "containers/SaasClassic/Navbar";
 import ServiceSection from "containers/SaasClassic/Service";
 import TrialSection from "containers/SaasClassic/Trial";
 import UpdateScreen from "containers/SaasClassic/UpdateScreen";
+import Poy from "containers/SaasClassic/Poy";
 import Newsletter from "containers/SaasClassic/Newsletter";
 import Footer from "containers/SaasClassic/Footer";
 
@@ -50,8 +51,8 @@ const SaasClassic = () => {
           <BannerSection />
           <ServiceSection />
           <CountDown />
+          <Poy />
           <UpdateScreen />
-          {/* <PartnerSection /> */}
           <TrialSection />
           <Newsletter />
           <Footer />

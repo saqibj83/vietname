@@ -1,18 +1,13 @@
 import React from "react";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import Icon from "react-icons-kit";
 import Tabs, { TabPane } from "rc-tabs";
 import "rc-tabs/assets/index.css";
 import Box from "common/components/Box";
-import Text from "common/components/Text";
 import Heading from "common/components/Heading";
-import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
-import Button from "common/components/Button";
 
 import SectionWrapper from "./updateScreen.style";
-import { SCREENSHOTS } from "common/data/SaasClassic";
 
 const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
   return (
