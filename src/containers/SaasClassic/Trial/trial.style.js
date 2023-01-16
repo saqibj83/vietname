@@ -4,6 +4,16 @@ const SectionWrapper = styled.section`
   background: #000;
   padding: 100px 0 0 0;
 
+  .sponsor-2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+  }
   @media (max-width: 550px) {
     padding: 65px 0 0 0;
   }
@@ -21,7 +31,7 @@ const SectionWrapper = styled.section`
   }
   @media (max-width: 550px) {
     .vender-logos {
-      width: 50%;
+      width: 100%;
       float: left;
       text-align: center;
       margin-bottom: 10px;

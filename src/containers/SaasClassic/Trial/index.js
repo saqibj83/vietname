@@ -14,6 +14,7 @@ import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.png";
 import VendorLogos3 from "common/assets/image/saasClassic/secretlab.png";
 import VendorLogos4 from "common/assets/image/saasClassic/shamballa.png";
 import VendorLogos5 from "common/assets/image/saasClassic/luxon.png";
+import { width } from "styled-system";
 
 const TrialSection = ({
   row,
@@ -34,28 +35,37 @@ const TrialSection = ({
             <Heading {...title} content="Our Sponsors and Partners" />
 
             <Box className="vender-logos">
-              <NextImage src={VendorLogos} alt="GG Poker" />
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 TITLE SPONSOR
               </h3>
+              <NextImage src={VendorLogos} alt="GG Poker" />
             </Box>
 
             <Box className="vender-logos">
-              <NextImage src={VendorLogos1} alt="Shamballa." />
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>EVENT HOST</h3>
+              <NextImage src={VendorLogos1} alt="Shamballa." />
             </Box>
-            <Box className="vender-logos">
-              <NextImage src={VendorLogos2} alt="J&Co." />
+            <Box className="vender-logos" style={{ marginBottom: "40px" }}>
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL TIMEKEEPER
               </h3>
+              <NextImage src={VendorLogos2} alt="J&Co." />
             </Box>
-            <Box className="vender-logos ">
-              <NextImage src={VendorLogos3} alt="secretlab" />
+            <Box className="sponsor-2">
+              <h3 style={{ color: "#EBA800", fontSize: "18px", width: "100%" }}>
+                EVENT PARTNERS
+              </h3>
+              <div style={{ padding: "0 40px" }}>
+                {" "}
+                <NextImage src={VendorLogos3} alt="secretlab" />
+              </div>
+
+              <div style={{ padding: "0 40px" }}>
+                {" "}
+                <NextImage src={VendorLogos4} alt="Dream Room" />
+              </div>
             </Box>
-            <Box className="vender-logos ">
-              <NextImage src={VendorLogos4} alt="Dream Room" />
-            </Box>
+
             {/* <Box className="vender-logos">
               <NextImage src={VendorLogos4} alt="inventional" />
             </Box>
