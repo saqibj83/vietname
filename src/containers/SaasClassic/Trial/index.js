@@ -55,12 +55,12 @@ const TrialSection = ({
               <h3 style={{ color: "#EBA800", fontSize: "18px", width: "100%" }}>
                 EVENT PARTNERS
               </h3>
-              <div style={{ padding: "0 40px" }}>
+              <div className="sponsor">
                 {" "}
                 <NextImage src={VendorLogos3} alt="secretlab" />
               </div>
 
-              <div style={{ padding: "0 40px" }}>
+              <div className="sponsor">
                 {" "}
                 <NextImage src={VendorLogos4} alt="Dream Room" />
               </div>

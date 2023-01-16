@@ -14,8 +14,16 @@ const SectionWrapper = styled.section`
     text-align: center;
     margin-bottom: 50px;
   }
+  .sponsor {
+    width: 50%;
+    text-align: certer;
+  }
   @media (max-width: 550px) {
     padding: 65px 0 0 0;
+    .sponsor {
+      width: 100%;
+      text-align: certer;
+    }
   }
 
   .vender-logos {
