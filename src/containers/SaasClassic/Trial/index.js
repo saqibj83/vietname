@@ -8,11 +8,11 @@ import NextImage from "common/components/NextImage";
 import Container from "common/components/UI/Container";
 
 import SectionWrapper from "./trial.style";
-import VendorLogos from "common/assets/image/saasClassic/gg-h.png";
-import VendorLogos1 from "common/assets/image/saasClassic/dream.png";
-import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.png";
-import VendorLogos3 from "common/assets/image/saasClassic/secretlab.png";
-import VendorLogos4 from "common/assets/image/saasClassic/shamballa.png";
+import VendorLogos from "common/assets/image/saasClassic/gg-h.svg";
+import VendorLogos1 from "common/assets/image/saasClassic/dream.svg";
+import VendorLogos2 from "common/assets/image/saasClassic/jacobco-h.svg";
+import VendorLogos3 from "common/assets/image/saasClassic/secretlab.svg";
+import VendorLogos4 from "common/assets/image/saasClassic/shamballa.svg";
 import VendorLogos5 from "common/assets/image/saasClassic/luxon.png";
 import { width } from "styled-system";
 
