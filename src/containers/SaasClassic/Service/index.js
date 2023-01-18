@@ -366,7 +366,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Live{" "}
                 </td>
                 <td>$25,000</td>
-                <td>200,000</td>
+                <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
@@ -381,7 +381,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Live{" "}
                 </td>
                 <td>$25,000</td>
-                <td>200,000</td>
+                <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
@@ -671,7 +671,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Live
                 </td>
                 <td>$25K</td>
-                <td>200K</td>
+                <td>250K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
@@ -686,7 +686,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Live
                 </td>
                 <td>$25K</td>
-                <td>200K</td>
+                <td>250K</td>
                 <td>40 MIN </td>
               </tr>
               <tr>
