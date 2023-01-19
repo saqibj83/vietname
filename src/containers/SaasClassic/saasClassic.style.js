@@ -52,6 +52,7 @@ export const GlobalStyle = createGlobalStyle`
     h3, h4 {
       font-size: 14px;
     }
+    
 
   }
   .drawer-content-wrapper{
