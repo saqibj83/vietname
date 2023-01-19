@@ -927,7 +927,9 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>2</td>
                 <td>#13 SD - Main Event</td>
                 <td>$50K</td>
-                <td>100K x3</td>
+                <td>
+                  100K <span style={{ textTransform: "lowercase" }}>x3 </span>
+                </td>
                 <td>45 MIN</td>
               </tr>
             </tbody>
