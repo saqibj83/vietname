@@ -48,7 +48,7 @@ a:hover {
   height: 50px;
   line-height: 35px;
   outline: none;
-  background: #e9bc66;
+  background: #EBA800;
   padding: 0 30px;
   font-weight: 700;
   font-size: 17px;
@@ -95,7 +95,7 @@ a:hover {
   align-content: center;
 }
 a.linkFooter {
-    color: #e9bc66;
+    color: #EBA800;
     padding: 0 15px;
 }
 ul.social {
