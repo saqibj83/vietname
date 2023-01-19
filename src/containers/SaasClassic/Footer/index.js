@@ -49,7 +49,7 @@ const Footer = ({
                     <Link href="#event_section">
                       <a>
                         <i className="icon-arrow-sm"></i>
-                        Event Shedule
+                        Event Schedule
                       </a>
                     </Link>
                   </li>

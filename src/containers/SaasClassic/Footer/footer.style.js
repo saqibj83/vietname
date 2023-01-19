@@ -70,12 +70,12 @@ a:hover {
 .footer-nav_cotact ul li {
   color: #fff;
   font-size: 16px;
-  margin-right: 2px;
+  margin-right: 10px;
   float: left;
 }
 .footer-nav_cotact ul li i {
   float: left;
-  padding: 5px 5px 10px 5px;
+  padding: 5px 5px 10px 0px;
 }
 .footer-top {
   padding: 30px 0 0;
