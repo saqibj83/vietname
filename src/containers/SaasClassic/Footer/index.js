@@ -84,7 +84,7 @@ const Footer = ({
                 </ul>
 
                 <div className="footer-nav_subscribe mt-8">
-                  <span className="footer-nav__col-title">Newsletter</span>
+                  <span className="footer-nav__col-title">NEWSLETTER</span>
 
                   <div className="box-field__row">
                     <div className="box-field">
@@ -105,7 +105,7 @@ const Footer = ({
                 </div>
               </div>
               <div className="footer-nav_cotact mt-8">
-                <span className="footer-nav__col-title">Contact</span>
+                <span className="footer-nav__col-title">CONTACT</span>
                 <p
                   style={{
                     fontSize: "16px",

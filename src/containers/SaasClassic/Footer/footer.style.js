@@ -21,12 +21,11 @@ a:hover {
 }
 .footer-nav__col-title {
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 100%;
   text-transform: capitalize;
-  color: #e9bc66;
+  color: #EBA800;
   margin-bottom: 8px;
-  font-family: Anton;
   letter-spacing: 1px;
 }
 .footer-top__social ul {
@@ -65,12 +64,12 @@ a:hover {
   color: #fff;
 }
 .footer-nav_cotact ul {
-  width: 100%;
+  width: 115%;
   float: left;
 }
 .footer-nav_cotact ul li {
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   margin-right: 2px;
   float: left;
 }
@@ -101,12 +100,11 @@ a.linkFooter {
 }
 ul.social {
   list-style: none;
-  padding: 0;
-  margin: 25px 0 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+    padding: 0px;
+    margin: 25px -20px 0px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
 .social li {
   display: inline-block;
