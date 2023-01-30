@@ -222,7 +222,7 @@ ul.social {
     }
     a.linkFooter {
       color: #EBA800;
-      padding: 0 10px;
+      padding: 0 5px;
     }
     .footer-copy {
       display:block;
