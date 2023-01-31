@@ -49,20 +49,43 @@ const TrialSection = ({
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
                 OFFICIAL TIMEKEEPER
               </h3>
-              <NextImage src={VendorLogos2} alt="J&Co." />
+              <img
+                src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/jacobco-h.svg"
+                alt="J&Co."
+                style={{
+                  display: "inline",
+                  width: "100px",
+                  paddingTop: "20px",
+                }}
+              />
             </Box>
             <Box className="sponsor-2">
               <h3 style={{ color: "#EBA800", fontSize: "18px", width: "100%" }}>
                 EVENT PARTNERS
               </h3>
               <div className="sponsor">
-                {" "}
-                <NextImage src={VendorLogos3} alt="secretlab" />
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172618/secretlab.svg"
+                  alt="serect Lab"
+                  style={{
+                    display: "inline",
+                    width: "200px",
+                    paddingTop: "50px",
+                  }}
+                />
               </div>
 
               <div className="sponsor">
                 {" "}
-                <NextImage src={VendorLogos4} alt="Dream Room" />
+                <img
+                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/shamballa.svg"
+                  alt="shamballa"
+                  style={{
+                    display: "inline",
+                    width: "200px",
+                    paddingTop: "20px",
+                  }}
+                />
               </div>
             </Box>
 
