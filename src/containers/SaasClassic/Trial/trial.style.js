@@ -14,8 +14,15 @@ const SectionWrapper = styled.section`
     text-align: center;
     margin-bottom: 50px;
   }
-  .sponsor {
-    width: 40%;
+
+  .sponsors-logo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+  }
+
+  .sponsor img {
+    width: 200px;
     text-align: certer;
   }
   @media (max-width: 550px) {
@@ -23,6 +30,9 @@ const SectionWrapper = styled.section`
     .sponsor {
       width: 100%;
       text-align: certer;
+    }
+    .sponsors-logo {
+      grid-template-columns: 1fr;
     }
   }
 

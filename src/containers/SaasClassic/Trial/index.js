@@ -63,29 +63,74 @@ const TrialSection = ({
               <h3 style={{ color: "#EBA800", fontSize: "18px", width: "100%" }}>
                 EVENT PARTNERS
               </h3>
-              <div className="sponsor">
-                <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172618/secretlab.svg"
-                  alt="serect Lab"
-                  style={{
-                    display: "inline",
-                    width: "200px",
-                    paddingTop: "50px",
-                  }}
-                />
-              </div>
+              <div className="sponsors-logo">
+                <div className="sponsor">
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172618/secretlab.svg"
+                    alt="serect Lab"
+                    style={{
+                      display: "inline",
+                      paddingTop: "50px",
+                    }}
+                  />
+                </div>
 
-              <div className="sponsor">
-                {" "}
-                <img
-                  src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/shamballa.svg"
-                  alt="shamballa"
-                  style={{
-                    display: "inline",
-                    width: "200px",
-                    paddingTop: "20px",
-                  }}
-                />
+                <div className="sponsor">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/31172617/shamballa.svg"
+                    alt="shamballa"
+                    style={{
+                      display: "inline",
+                      paddingTop: "20px",
+                    }}
+                  />
+                </div>
+
+                <div className="sponsor">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141553/sport.png"
+                    alt="shamballa"
+                    style={{
+                      display: "inline",
+                      paddingTop: "20px",
+                    }}
+                  />
+                </div>
+                <div className="sponsor">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141554/poker.png"
+                    alt="shamballa"
+                    style={{
+                      display: "inline",
+                      paddingTop: "20px",
+                    }}
+                  />
+                </div>
+                <div className="sponsor">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141556/direct-pay.png"
+                    alt="shamballa"
+                    style={{
+                      display: "inline",
+                      paddingTop: "20px",
+                    }}
+                  />
+                </div>
+                <div className="sponsor">
+                  {" "}
+                  <img
+                    src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141555/rais.png"
+                    alt="shamballa"
+                    style={{
+                      display: "inline",
+                      paddingTop: "20px",
+                    }}
+                  />
+                </div>
               </div>
             </Box>
 
