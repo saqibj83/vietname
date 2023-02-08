@@ -19,6 +19,7 @@ const SectionWrapper = styled.section`
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     width: 100%;
+    align-items: center;
   }
 
   .sponsor img {
