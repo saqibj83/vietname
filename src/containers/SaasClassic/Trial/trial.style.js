@@ -55,7 +55,6 @@ const SectionWrapper = styled.section`
       text-align: center;
       margin-bottom: 10px;
       padding: 10px;
-      height: 160px;
     }
     .line-2 {
       margin-left: 0px;

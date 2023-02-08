@@ -53,8 +53,12 @@ const TrialSection = ({
                   width: "250px",
                 }}
               />
-              <h3 style={{ color: "#EBA800", fontSize: "18px" }}>EVENT HOST</h3>
-              <NextImage src={VendorLogos1} alt="Dream Room" />
+              <Box>
+                <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
+                  EVENT HOST
+                </h3>
+                <NextImage src={VendorLogos1} alt="Dream Room" />
+              </Box>
             </Box>
             <Box className="vender-logos" style={{ marginBottom: "40px" }}>
               <h3 style={{ color: "#EBA800", fontSize: "18px" }}>
