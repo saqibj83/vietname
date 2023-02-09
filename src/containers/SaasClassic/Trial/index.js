@@ -115,24 +115,17 @@ const TrialSection = ({
                   />
                 </div>
               </div>
-              <div
-                className="sponsor"
-                style={{ width: "400px", marginTop: "20px" }}
-              >
+              <div className="sponsor" style={{ width: "400px" }}>
                 {" "}
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141556/direct-pay.png"
                   alt="Dire Pay"
                   style={{
                     display: "inline",
-                    paddingTop: "20px",
                   }}
                 />
               </div>
-              <div
-                className="sponsor"
-                style={{ width: "400px", marginTop: "20px" }}
-              >
+              <div className="sponsor" style={{ width: "400px" }}>
                 {" "}
                 <img
                   src="https://cdn.triton-series.com/wp-content/uploads/2019/12/07141555/rais.png"
