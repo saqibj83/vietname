@@ -365,7 +365,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Super Million$ <br />
                   Live{" "}
                 </td>
-                <td>$25,000</td>
+                <td>25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -380,7 +380,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Super Million$ <br />
                   Live{" "}
                 </td>
-                <td>$25,000</td>
+                <td>25,000</td>
                 <td>250,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -391,7 +391,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#2 NLH - 7 Handed</td>
-                <td>$15,000</td>
+                <td>15,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -402,7 +402,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#2 NLH - 7 Handed</td>
-                <td>$15,000</td>
+                <td>15,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -413,7 +413,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#3 NLH - 8 Handed - Mystery Bounty</td>
-                <td>$20,000</td>
+                <td>20,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -424,7 +424,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#3 NLH - 8 Handed - Mystery Bounty</td>
-                <td>$20,000</td>
+                <td>20,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
               </tr>
@@ -435,7 +435,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#5 NLH - 7 Handed</td>
-                <td>$30,000</td>
+                <td>30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
@@ -446,7 +446,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#5 NLH - 7 Handed</td>
-                <td>$30,000</td>
+                <td>30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
               </tr>
@@ -457,7 +457,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#6 NLH - 8 Handed</td>
-                <td>$50,000</td>
+                <td>50,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -468,7 +468,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#6 NLH - 8 Handed</td>
-                <td>$50,000</td>
+                <td>50,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -479,7 +479,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>$75,000</td>
+                <td>75,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -490,7 +490,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>$75,000</td>
+                <td>75,000</td>
                 <td>200,000</td>
                 <td>40 MIN </td>
               </tr>
@@ -501,7 +501,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>Single</td>
                 <td>#8 NLH - TURBO</td>
-                <td>$25,000</td>
+                <td>25,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
               </tr>
@@ -512,7 +512,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#9 NLH - Main Event</td>
-                <td>$100,000</td>
+                <td>100,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -523,7 +523,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#9 NLH - Main Event</td>
-                <td>$100,000</td>
+                <td>100,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -534,7 +534,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>Single</td>
                 <td>#10 NLH - TURBO</td>
-                <td>$50,000</td>
+                <td>50,000</td>
                 <td>200,000</td>
                 <td>20 MIN </td>
               </tr>
@@ -545,7 +545,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>FT</td>
                 <td>#9 NLH - Main Event</td>
-                <td>$100,000</td>
+                <td>100,000</td>
                 <td>250,000</td>
                 <td>50 MIN </td>
               </tr>
@@ -556,7 +556,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#11 Short Deck Ante-Only</td>
-                <td>$25,000</td>
+                <td>25,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -569,7 +569,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#11 Short Deck Ante-Only</td>
-                <td>$25,000</td>
+                <td>25,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -582,7 +582,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#12 Short Deck Ante-Only</td>
-                <td>$50,000</td>
+                <td>50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -595,7 +595,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#12 Short Deck Ante-Only</td>
-                <td>$50,000</td>
+                <td>50,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -608,7 +608,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#13 SD - Main Event</td>
-                <td>$100,000</td>
+                <td>100,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -621,7 +621,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#13 SD - Main Event</td>
-                <td>$100,000</td>
+                <td>100,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -634,7 +634,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#15 Short Deck Ante-Only</td>
-                <td>$20,000</td>
+                <td>20,000</td>
                 <td>
                   100,000 <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -683,7 +683,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Super Million$ <br />
                   Live
                 </td>
-                <td>$25K</td>
+                <td>25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
@@ -698,7 +698,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Super Million$ <br />
                   Live
                 </td>
-                <td>$25K</td>
+                <td>25K</td>
                 <td>250K</td>
                 <td>40 MIN </td>
               </tr>
@@ -709,7 +709,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#2 NLH - 7 Handed</td>
-                <td>$15K</td>
+                <td>15K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -720,7 +720,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#2 NLH - 7 Handed</td>
-                <td>$15K</td>
+                <td>15K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -731,7 +731,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#3 NLH - 8 Handed - Mystery Bounty</td>
-                <td>$20K</td>
+                <td>20K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -742,7 +742,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#3 NLH - 8 Handed - Mystery Bounty</td>
-                <td>$20K</td>
+                <td>20K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
               </tr>
@@ -753,7 +753,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#5 NLH - 7 Handed</td>
-                <td>$30K</td>
+                <td>30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -764,7 +764,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#5 NLH - 7 Handed</td>
-                <td>$30K</td>
+                <td>30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
               </tr>
@@ -775,7 +775,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#6 NLH - 8 Handed</td>
-                <td>$50K</td>
+                <td>50K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -786,7 +786,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#6 NLH - 8 Handed</td>
-                <td>$50K</td>
+                <td>50K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -797,7 +797,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>$75K</td>
+                <td>75K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -808,7 +808,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#7 NLH - 8 Handed</td>
-                <td>$75K</td>
+                <td>75K</td>
                 <td>200K</td>
                 <td>40 MIN </td>
               </tr>
@@ -819,7 +819,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>Single</td>
                 <td>#8 NLH - TURBO</td>
-                <td>$25K</td>
+                <td>25K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
               </tr>
@@ -830,7 +830,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#9 NLH - Main Event</td>
-                <td>$100K</td>
+                <td>100K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -841,7 +841,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#9 NLH - Main Event</td>
-                <td>$100K</td>
+                <td>100K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -852,7 +852,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>Single</td>
                 <td>#10 NLH - TURBO</td>
-                <td>$50K</td>
+                <td>50K</td>
                 <td>200K</td>
                 <td>20 MIN </td>
               </tr>
@@ -863,7 +863,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>FT</td>
                 <td>#9 NLH - Main Event</td>
-                <td>$100K</td>
+                <td>100K</td>
                 <td>250K</td>
                 <td>50 MIN </td>
               </tr>
@@ -874,7 +874,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#11 Short Deck Ante-Only</td>
-                <td>$25K</td>
+                <td>25K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -887,7 +887,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#11 Short Deck Ante-Only</td>
-                <td>$25K</td>
+                <td>25K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -900,7 +900,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#12 Short Deck Ante-Only</td>
-                <td>$50K</td>
+                <td>50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -913,7 +913,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#12 Short Deck Ante-Only</td>
-                <td>$50K</td>
+                <td>50K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -926,7 +926,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#13 SD - Main Event</td>
-                <td>$100K</td>
+                <td>100K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3</span>
                 </td>
@@ -939,7 +939,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>2</td>
                 <td>#13 SD - Main Event</td>
-                <td>$100K</td>
+                <td>100K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3 </span>
                 </td>
@@ -952,7 +952,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 </td>
                 <td>1</td>
                 <td>#15 Short Deck Ante-Only</td>
-                <td>$20K</td>
+                <td>20K</td>
                 <td>
                   100K <span style={{ textTransform: "lowercase" }}>x3 </span>
                 </td>
@@ -963,18 +963,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/09191931/NEW-Vietnam-Booklet-v4.9-090223-EVENT-STRUCTURES.pdf">
+            {/* <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/09191931/NEW-Vietnam-Booklet-v4.9-090223-EVENT-STRUCTURES.pdf">
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
                   DOWNLOAD TOURNAMENT STRUCTURES
                 </div>
               </a>
-            </Link>
-
-            {/* <Link href="">
-              <a ></a>
             </Link> */}
-            {/* <span class="tooltiptext">Coming Soon</span> */}
+
+            <div className="primary-cta" style={{ marginTop: "10px" }}>
+              DOWNLOAD TOURNAMENT STRUCTURES
+            </div>
+            <span class="tooltiptext">Coming Soon</span>
           </div>
         </Box>
       </Container>
