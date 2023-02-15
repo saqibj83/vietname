@@ -362,7 +362,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>1</td>
                 <td>
                   #1 GG <br />
-                  Super Million$ <br />
+                  Super Millions <br />
                   Live{" "}
                 </td>
                 <td>25,000</td>
@@ -377,7 +377,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>2</td>
                 <td>
                   #1 GG <br />
-                  Super Million$ <br />
+                  Super Millions <br />
                   Live{" "}
                 </td>
                 <td>25,000</td>
@@ -680,7 +680,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>1</td>
                 <td>
                   #1 GG <br />
-                  Super Million$ <br />
+                  Super Millions <br />
                   Live
                 </td>
                 <td>25K</td>
@@ -695,7 +695,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>2</td>
                 <td>
                   #1 GG <br />
-                  Super Million$ <br />
+                  Super Millions <br />
                   Live
                 </td>
                 <td>25K</td>
