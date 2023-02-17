@@ -36,24 +36,24 @@ const SectionWrapper = styled.section`
     margin-bottom: 30px;
     margin-top: 50px;
   }
-  .prime-cta .tooltiptext {
-    visibility: hidden;
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    position: absolute;
-    margin-top: -62px;
-    margin-left: -293px;
-    padding: 4px;
-    border: 1px solid #eba800;
-    z-index: 90;
-    width: 150px;
-  }
+  // .prime-cta .tooltiptext {
+  //   visibility: hidden;
+  //   background-color: #000000;
+  //   color: #fff;
+  //   text-align: center;
+  //   border-radius: 6px;
+  //   position: absolute;
+  //   margin-top: -62px;
+  //   margin-left: -293px;
+  //   padding: 4px;
+  //   border: 1px solid #eba800;
+  //   z-index: 90;
+  //   width: 150px;
+  // }
 
-  .prime-cta:hover .tooltiptext {
-    visibility: visible;
-  }
+  // .prime-cta:hover .tooltiptext {
+  //   visibility: visible;
+  // }
   .service_item {
     position: relative;
     text-align: center;
@@ -133,7 +133,7 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(5),
     th:nth-child(5) {
-      width: 50px !important;
+      width: 65px !important;
       font-size: 10px !important;
     }
     td:nth-child(6),

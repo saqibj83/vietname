@@ -23,6 +23,7 @@ import Event12 from "common/assets/image/booklet/event-12.jpg";
 import Event13 from "common/assets/image/booklet/event-13.jpg";
 import Event14 from "common/assets/image/booklet/event-14.jpg";
 import Event15 from "common/assets/image/booklet/event-15.jpg";
+import Symbol from "common/assets/image/symbol.svg";
 import Coin from "common/assets/image/saasClassic/inventional-1.png";
 
 const CloseModalButton = () => (
@@ -343,7 +344,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Event</h5>
                 </th>
                 <th>
-                  <h5>Buy-in</h5>
+                  <h5>
+                    Buy-in
+                    <img
+                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/17104356/symbol.svg"
+                      alt="Triton symbol"
+                      width="15px"
+                      style={{ float: "right", paddingTop: "7px" }}
+                    />
+                  </h5>
                 </th>
                 <th>
                   <h5>Stack</h5>
@@ -661,7 +670,15 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Event</h5>
                 </th>
                 <th>
-                  <h5>Buy-in</h5>
+                  <h5>
+                    Buy-in
+                    <img
+                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/17104356/symbol.svg"
+                      alt="Triton symbol"
+                      width="13px"
+                      style={{ float: "right", paddingTop: "4px" }}
+                    />
+                  </h5>
                 </th>
                 <th>
                   <h5>Stack</h5>
@@ -963,18 +980,18 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            {/* <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/09191931/NEW-Vietnam-Booklet-v4.9-090223-EVENT-STRUCTURES.pdf">
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/17104524/NEW-Vietnam-Booklet.pdf">
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
                   DOWNLOAD TOURNAMENT STRUCTURES
                 </div>
               </a>
-            </Link> */}
+            </Link>
 
-            <div className="primary-cta" style={{ marginTop: "10px" }}>
+            {/* <div className="primary-cta" style={{ marginTop: "10px" }}>
               DOWNLOAD TOURNAMENT STRUCTURES
             </div>
-            <span class="tooltiptext">Coming Soon</span>
+            <span class="tooltiptext">Coming Soon</span> */}
           </div>
         </Box>
       </Container>
