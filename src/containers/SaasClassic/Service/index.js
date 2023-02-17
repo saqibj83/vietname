@@ -980,7 +980,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
         </Box>
         <Box>
           <div className="prime-cta">
-            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/17104524/NEW-Vietnam-Booklet.pdf">
+            <Link href="https://cdn.triton-series.com/wp-content/uploads/2019/12/17143440/NEW-Vietnam-Booklet-v5.1-160223-TRITON-POINTS-RGB-STRUCTURES-ONLY.pdf">
               <a target="_blank">
                 <div className="primary-cta" style={{ marginTop: "10px" }}>
                   DOWNLOAD TOURNAMENT STRUCTURES

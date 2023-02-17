@@ -108,6 +108,12 @@ const SectionWrapper = styled.section`
     .non-mob {
       display: block;
     }
+    thead tr {
+      margin-right: 5px !important;
+    }
+    td {
+      padding: 15px 0 15px 0 !important;
+    }
     td:nth-child(1),
     th:nth-child(1) {
       width: 25px !important;
@@ -118,7 +124,6 @@ const SectionWrapper = styled.section`
       width: 55px !important;
       font-size: 10px !important;
       text-align: center;
-      padding-right: 10px;
     }
     td:nth-child(3),
     th:nth-child(3) {
