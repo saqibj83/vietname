@@ -133,7 +133,7 @@ const SectionWrapper = styled.section`
     }
     td:nth-child(5),
     th:nth-child(5) {
-      width: 65px !important;
+      width: 70px !important;
       font-size: 10px !important;
     }
     td:nth-child(6),
