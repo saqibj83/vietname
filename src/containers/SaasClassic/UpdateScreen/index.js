@@ -92,15 +92,6 @@ const UpdateScreen = ({ secTitleWrapper, secText, secHeading, button }) => {
                 </a>
               </Link>
             </p>
-            <p>
-              Players can choose to apply the e-visa on their own or seek for
-              the services from VIP Services. We are happy to provide assistance
-              on e-visa applications through the venue with the following rates:
-            </p>
-            <img
-              src="https://cdn.triton-series.com/wp-content/uploads/2023/01/06134608/main-table-2.png"
-              alt=""
-            />
           </TabPane>
         </Tabs>
         <Box style={{ textAlign: "center", paddingTop: "15px" }}>
