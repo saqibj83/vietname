@@ -8,6 +8,9 @@ const SectionWrapper = styled.section`
     border-radius: 0px 0px 10px 10px;
     border: 3px solid #eba800;
   }
+  .update-screen-tab .rc-tabs-content .rc-tabs-tabpane {
+    padding-bottom: 20px;
+  }
   @media (max-width: 990px) {
     padding: 80px 0 40px 0;
   }
