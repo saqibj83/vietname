@@ -399,7 +399,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thursday <br /> 2 March 2023
                 </td>
                 <td>1</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td>#2 NLH - 8 Handed</td>
                 <td>15,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -410,7 +410,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Friday <br /> 3 March 2023
                 </td>
                 <td>2</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td>#2 NLH - 8 Handed</td>
                 <td>15,000</td>
                 <td>200,000</td>
                 <td>30 MIN </td>
@@ -443,7 +443,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Saturday <br /> 4 March, 2023
                 </td>
                 <td>1</td>
-                <td>#5 NLH - 7 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -454,7 +454,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sunday <br /> 5 March 2023
                 </td>
                 <td>2</td>
-                <td>#5 NLH - 7 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>30,000</td>
                 <td>200,000</td>
                 <td>35 MIN </td>
@@ -725,7 +725,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Thu <br /> 2 March
                 </td>
                 <td>1</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td>#2 NLH - 8 Handed</td>
                 <td>15K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -736,7 +736,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Fri <br /> 3 March
                 </td>
                 <td>2</td>
-                <td>#2 NLH - 7 Handed</td>
+                <td>#2 NLH - 8 Handed</td>
                 <td>15K</td>
                 <td>200K</td>
                 <td>30 MIN </td>
@@ -769,7 +769,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sat <br /> 4 March
                 </td>
                 <td>1</td>
-                <td>#5 NLH - 7 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
@@ -780,7 +780,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   Sun <br /> 5 March
                 </td>
                 <td>2</td>
-                <td>#5 NLH - 7 Handed</td>
+                <td>#5 NLH - 8 Handed</td>
                 <td>30K</td>
                 <td>200K</td>
                 <td>35 MIN </td>
