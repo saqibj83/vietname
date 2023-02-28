@@ -344,15 +344,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Event</h5>
                 </th>
                 <th>
-                  <h5>
-                    Buy-in
-                    <img
-                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/17121925/symbol1.svg"
-                      alt="Triton symbol"
-                      width="15px"
-                      style={{ float: "right", paddingTop: "7px" }}
-                    />
-                  </h5>
+                  <h5>Buy-in</h5>
                 </th>
                 <th>
                   <h5>Stack</h5>
@@ -670,15 +662,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                   <h5>Event</h5>
                 </th>
                 <th>
-                  <h5>
-                    Buy-in
-                    <img
-                      src="https://cdn.triton-series.com/wp-content/uploads/2019/12/17121925/symbol1.svg"
-                      alt="Triton symbol"
-                      width="13px"
-                      style={{ float: "right", paddingTop: "4px" }}
-                    />
-                  </h5>
+                  <h5>Buy-in</h5>
                 </th>
                 <th>
                   <h5>Stack</h5>
