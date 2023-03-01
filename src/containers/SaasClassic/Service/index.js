@@ -633,7 +633,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Monday <br /> 13 March 2023
                 </td>
-                <td>1</td>
+                <td>SINGLE</td>
                 <td>#15 Short Deck Ante-Only</td>
                 <td>20,000</td>
                 <td>
@@ -951,7 +951,7 @@ const ServiceSection = ({ secTitleWrapper, secHeading }) => {
                 <td>
                   Mon <br /> 13 March
                 </td>
-                <td>1</td>
+                <td>SINGLE</td>
                 <td>#15 Short Deck Ante-Only</td>
                 <td>20K</td>
                 <td>
