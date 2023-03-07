@@ -22,7 +22,7 @@ const CloseModalButton = () => (
 
 const ModalContent = () => (
   <VideoWrapper>
-    <iframe title="Video" src="https://www.youtube.com/embed/rYEH30AS4Yw" />
+    <iframe title="Video" src="https://www.youtube.com/embed/ens1f5xRg04" />
   </VideoWrapper>
 );
 
@@ -61,7 +61,7 @@ const BannerSection = ({ row, contentWrapper, title, imageWrapper }) => {
           <div className="video-section">
             <Fade bottom>
               <ReactPlayer
-                url="https://www.youtube.com/embed/rYEH30AS4Yw"
+                url="https://www.youtube.com/embed/ens1f5xRg04"
                 // light="https://cdn.triton-series.com/wp-content/uploads/2019/12/05122106/bg-vietnam.png"
                 playing
                 width="711px"
