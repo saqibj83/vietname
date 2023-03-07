@@ -22,11 +22,7 @@ const CloseModalButton = () => (
 
 const ModalContent = () => (
   <VideoWrapper>
-    <iframe
-      title="Video"
-      src="https://www.youtube.com/embed/rYEH30AS4Yw"
-      frameBorder="0"
-    />
+    <iframe title="Video" src="https://www.youtube.com/embed/rYEH30AS4Yw" />
   </VideoWrapper>
 );
 
